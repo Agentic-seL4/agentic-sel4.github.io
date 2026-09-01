@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+<meta name="ext-resource-dependency" content="https://sheffield.ac.uk/sites/default/files/styles/profile_square_lg_1x/public/2024-02/Andrei.jpeg?h=24cc8377&amp;itok=qV6hinAy" data-resource-id="popescu" />
+<meta name="ext-resource-dependency" content="uploads/TobyMurray2025-2-600x600.png" data-resource-id="murray" />
+<meta name="ext-resource-dependency" content="uploads/me.jpg" data-resource-id="dongol" />
+<meta name="ext-resource-dependency" content="https://ckaliszyk.github.io/img/cezary_kaliszyk-24.jpg" data-resource-id="kaliszyk" />
+<meta name="ext-resource-dependency" content="https://sheffield.ac.uk/sites/default/files/styles/profile_square_lg_1x/public/2025-07/profile.png?h=ff4e460d&amp;itok=HQv2o4Rr" data-resource-id="valentino" />
+<meta name="ext-resource-dependency" content="https://sheffield.ac.uk/sites/default/files/styles/profile_square_lg_1x/public/2024-08/FoE_Headshots_162.jpg?h=555ba530&amp;itok=QRB34eht" data-resource-id="aletras" />
+<meta name="ext-resource-dependency" content="https://sheffield.ac.uk/sites/default/files/styles/profile_square_lg_1x/public/2023-03/2023-03-08%2013.21.59%20%281%29.jpg?h=534b93c5&amp;itok=weuMshE4" data-resource-id="pasikhani" />
+<template id="__bundler_thumbnail" data-bg-color="#0b132b">
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="800" fill="#0b132b"/>
+<g transform="translate(600,400) scale(5)">
+<circle r="46" fill="none" stroke="#ffffff" stroke-width="4.5"/>
+<circle r="32" fill="none" stroke="#64748b" stroke-width="2" stroke-dasharray="4 3"/>
+<circle cx="0" cy="-12" r="4" fill="#22d3ee"/>
+<circle cx="0" cy="12" r="4" fill="#22d3ee"/>
+<circle cx="16" cy="0" r="5" fill="#6366f1"/>
+</g>
+</svg>
+</template>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+<style>
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: #FBFBF9; color: #14181C; font-family: "Public Sans", Helvetica, sans-serif; -webkit-font-smoothing: antialiased; }
+  a { color: #1F4E79; text-decoration: none; }
+  a:hover { color: #16395A; text-decoration: underline; }
+</style>
+</helmet>
+<div style="max-width: 100%; overflow-x: hidden">
+
+  <header style="position: sticky; top: 0; z-index: 20; background: rgba(251,251,249,0.94); backdrop-filter: blur(8px); border-bottom: 1px solid #E5E4DE">
+    <div style="max-width: 1160px; margin: 0 auto; padding: 0 40px; height: 66px; display: flex; align-items: center; justify-content: space-between; gap: 32px">
+      <a href="#top" style="display: flex; align-items: center; gap: 11px; color: #14181C; text-decoration: none">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="width: 34px; height: 34px; flex: none; display: block">
+          <rect width="128" height="128" rx="24" fill="#0b132b"></rect>
+          <g transform="translate(64, 64)">
+            <circle cx="0" cy="0" r="46" fill="none" stroke="#ffffff" stroke-width="4.5"></circle>
+            <circle cx="0" cy="0" r="32" fill="none" stroke="#64748b" stroke-width="2" stroke-dasharray="4 3"></circle>
+            <g transform="translate(-16, 0)" fill="none" stroke="#06b6d4" stroke-width="1.25" opacity="0.65">
+              <line x1="0" y1="-12" x2="16" y2="-16"></line>
+              <line x1="0" y1="-12" x2="16" y2="0"></line>
+              <line x1="0" y1="-12" x2="16" y2="16"></line>
+              <line x1="0" y1="12" x2="16" y2="-16"></line>
+              <line x1="0" y1="12" x2="16" y2="0"></line>
+              <line x1="0" y1="12" x2="16" y2="16"></line>
+              <line x1="16" y1="-16" x2="32" y2="0"></line>
+              <line x1="16" y1="0" x2="32" y2="0"></line>
+              <line x1="16" y1="16" x2="32" y2="0"></line>
+            </g>
+            <g transform="translate(-16, 0)" fill="#22d3ee">
+              <circle cx="0" cy="-12" r="3"></circle>
+              <circle cx="0" cy="12" r="3"></circle>
+              <circle cx="16" cy="-16" r="3.5"></circle>
+              <circle cx="16" cy="0" r="3.5"></circle>
+              <circle cx="16" cy="16" r="3.5"></circle>
+              <circle cx="32" cy="0" r="4.5" fill="#6366f1"></circle>
+            </g>
+          </g>
+        </svg>
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 17px; letter-spacing: -0.01em">Agentic-seL4</span>
+        <span style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #7C7A73">Project</span>
+      </a>
+      <nav style="display: flex; gap: 26px; font-size: 13.5px; font-weight: 500; color: #4A4E54">
+        <a href="#overview" style="color: inherit">Overview</a>
+        <a href="#work" style="color: inherit">Work packages</a>
+        <a href="#outputs" style="color: inherit">Outputs</a>
+        <a href="#team" style="color: inherit">Team</a>
+        <a href="#positions" style="color: inherit">Positions</a>
+        <a href="#updates" style="color: inherit">Updates</a>
+        <a href="#contact" style="color: inherit">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="top" style="max-width: 1160px; margin: 0 auto; padding: 92px 40px 72px">
+    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 34px">
+      <span style="display: inline-flex; align-items: center; gap: 8px; border: 1px solid #1F4E79; color: #1F4E79; border-radius: 2px; padding: 5px 10px; font-size: 11.5px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase">Project underway</span>
+      <span style="font-size: 13px; color: #7C7A73">Started 2026</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 48px; margin: 0 0 28px">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="width: 132px; height: 132px; flex: none; display: block; order: -1">
+        <rect width="128" height="128" rx="24" fill="#0b132b"></rect>
+        <g transform="translate(64, 64)">
+          <circle cx="0" cy="0" r="46" fill="none" stroke="#ffffff" stroke-width="4.5"></circle>
+          <circle cx="0" cy="0" r="32" fill="none" stroke="#64748b" stroke-width="2" stroke-dasharray="4 3"></circle>
+          <g transform="translate(-16, 0)" fill="none" stroke="#06b6d4" stroke-width="1.25" opacity="0.65">
+            <line x1="0" y1="-12" x2="16" y2="-16"></line>
+            <line x1="0" y1="-12" x2="16" y2="0"></line>
+            <line x1="0" y1="-12" x2="16" y2="16"></line>
+            <line x1="0" y1="12" x2="16" y2="-16"></line>
+            <line x1="0" y1="12" x2="16" y2="0"></line>
+            <line x1="0" y1="12" x2="16" y2="16"></line>
+            <line x1="16" y1="-16" x2="32" y2="0"></line>
+            <line x1="16" y1="0" x2="32" y2="0"></line>
+            <line x1="16" y1="16" x2="32" y2="0"></line>
+          </g>
+          <g transform="translate(-16, 0)" fill="#22d3ee">
+            <circle cx="0" cy="-12" r="3"></circle>
+            <circle cx="0" cy="12" r="3"></circle>
+            <circle cx="16" cy="-16" r="3.5"></circle>
+            <circle cx="16" cy="0" r="3.5"></circle>
+            <circle cx="16" cy="16" r="3.5"></circle>
+            <circle cx="32" cy="0" r="4.5" fill="#6366f1"></circle>
+          </g>
+        </g>
+      </svg>
+      <h1 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 60px; line-height: 1.04; letter-spacing: -0.028em; margin: 0; max-width: 20ch; text-wrap: pretty; flex: 1 1 auto">Provably secure sandboxing of AI agents</h1>
+    </div>
+    <p style="font-size: 21px; line-height: 1.5; max-width: 62ch; margin: 0 0 40px; color: #33383E; text-wrap: pretty">Agentic-seL4 builds a capability-based sandbox for AI agents on top of the formally verified seL4 microkernel, and proves the security properties that follow &mdash; using AI-assisted theorem proving to do it at scale.</p>
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: #E5E4DE; border: 1px solid #E5E4DE; margin-top: 8px">
+      <div style="background: #FBFBF9; padding: 22px 24px">
+        <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #7C7A73; margin-bottom: 10px">Institutions</div>
+        <div style="font-size: 15.5px; font-weight: 500">Surrey (lead) &middot; Sheffield &middot; Melbourne</div>
+      </div>
+      <div style="background: #FBFBF9; padding: 22px 24px">
+        <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #7C7A73; margin-bottom: 10px">Collaborator</div>
+        <div style="font-size: 15.5px; font-weight: 500">Proofcraft</div>
+      </div>
+      <div style="background: #FBFBF9; padding: 22px 24px">
+        <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #7C7A73; margin-bottom: 10px">Team</div>
+        <div style="font-size: 15.5px; font-weight: 500">7 investigators &middot; 9 posts</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="overview" style="border-top: 1px solid #E5E4DE; background: #F4F3EF">
+    <div style="max-width: 1160px; margin: 0 auto; padding: 76px 40px 80px; display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 56px">
+      <div>
+        <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600; margin-bottom: 14px">Overview</div>
+        <h2 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 27px; line-height: 1.15; letter-spacing: -0.02em; margin: 0; text-wrap: pretty">Why sandbox an agent at the kernel?</h2>
+      </div>
+      <div>
+        <div style="display: grid; gap: 20px; font-size: 17.5px; line-height: 1.62; color: #2B3036; max-width: 68ch">
+          <p style="margin: 0">Agentic AI is being used for optimisation, self-healing and automated decision making in exactly the sectors that depend on strong isolation. But an agent is stochastic and prompt-driven rather than a fixed program. Even during normal operation it may leak sensitive data, misconfigure systems, escalate its own privileges, or introduce subtle vulnerabilities in response to benign instructions. Under attack it amplifies the adversary: following malicious prompts, chaining tools, exfiltrating data across trust boundaries, and weakening defences faster and more persistently than a human operator.</p>
+          <p style="margin: 0">Today's containment is empirical. Linux primitives, containers and VM-based sandboxes all fail through incomplete enforcement, misconfiguration, flawed policies and buggy runtimes &mdash; and benchmarks that measure escape are, by construction, post hoc. They cannot deliver machine-checked isolation guarantees.</p>
+          <p style="margin: 0">seL4 can. Its capabilities may be delegated, restricted or revoked, and they are already a formally analysable foundation with machine-checked information-flow proofs. What is missing is a layer above the kernel that is agent-aware &mdash; fine-grained, dynamically delegated, and robust against active probing by the agent itself &mdash; together with the security theorems that such a layer induces.</p>
+        </div>
+        <div style="margin-top: 40px; border-left: 3px solid #1F4E79; padding: 4px 0 4px 26px; display: grid; gap: 20px; max-width: 66ch">
+          <div>
+            <div style="font-family: Archivo, Helvetica, sans-serif; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #1F4E79; font-weight: 600; margin-bottom: 8px">Goal one</div>
+            <p style="margin: 0; font-size: 17.5px; line-height: 1.55; color: #14181C">Provide provably secure sandboxing for systems comprising AI agents, using the capability-enabled seL4 microkernel as the foundation for isolation.</p>
+          </div>
+          <div>
+            <div style="font-family: Archivo, Helvetica, sans-serif; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #1F4E79; font-weight: 600; margin-bottom: 8px">Goal two</div>
+            <p style="margin: 0; font-size: 17.5px; line-height: 1.55; color: #14181C">Use AI agents to support the new security theorems this extension induces, underpinned by modernisation of the existing seL4 theorems and proofs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" style="border-top: 1px solid #E5E4DE">
+    <div style="max-width: 1160px; margin: 0 auto; padding: 76px 40px 84px">
+      <div style="display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 56px; margin-bottom: 48px">
+        <div>
+          <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600; margin-bottom: 14px">Work packages</div>
+          <h2 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 27px; line-height: 1.15; letter-spacing: -0.02em; margin: 0">Four objectives, two strands</h2>
+        </div>
+        <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #4A4E54; max-width: 66ch; align-self: end">WP3 is a project-long proof strand. WP1, WP2 and WP4 run as sprints, feeding requirements and automation back into it. WP2 carries two parallel implementations &mdash; a Linux reference design from sprint 2, with the seL4 implementation expected at sprint 5 &mdash; both stress-tested with the Red Team.</p>
+      </div>
+      <div style="display: grid; gap: 1px; background: #E5E4DE; border-top: 1px solid #E5E4DE; border-bottom: 1px solid #E5E4DE">
+        <sc-for list="{{ workPackages }}" as="wp" hint-placeholder-count="4">
+          <article style="background: #FBFBF9; display: grid; grid-template-columns: 120px minmax(0, 1fr) 300px; gap: 40px; padding: 34px 4px">
+            <div>
+              <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 22px; color: #1F4E79; letter-spacing: -0.01em">{{ wp.id }}</div>
+              <div style="font-size: 12px; color: #7C7A73; margin-top: 6px; letter-spacing: 0.04em">{{ wp.objective }}</div>
+              <div style="font-size: 12px; color: #7C7A73; margin-top: 2px">Lead: {{ wp.lead }}</div>
+            </div>
+            <div>
+              <h3 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 20px; line-height: 1.25; letter-spacing: -0.015em; margin: 0 0 12px">{{ wp.title }}</h3>
+              <p style="margin: 0; font-size: 16.5px; line-height: 1.6; color: #33383E; max-width: 58ch">{{ wp.summary }}</p>
+            </div>
+            <div style="display: grid; gap: 9px; align-content: start; padding-top: 3px">
+              <sc-for list="{{ wp.tasks }}" as="t" hint-placeholder-count="3">
+                <div style="display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: 10px; font-size: 14px; line-height: 1.45; color: #4A4E54">
+                  <span style="color: #1F4E79; font-weight: 600">{{ t.id }}</span>
+                  <span>{{ t.text }}</span>
+                </div>
+              </sc-for>
+            </div>
+          </article>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <section id="outputs" style="border-top: 1px solid #E5E4DE; background: #F4F3EF">
+    <div style="max-width: 1160px; margin: 0 auto; padding: 76px 40px 84px">
+      <div style="display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 56px; margin-bottom: 44px">
+        <div>
+          <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600; margin-bottom: 14px">Outputs</div>
+          <h2 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 27px; line-height: 1.15; letter-spacing: -0.02em; margin: 0">Publications, artefacts, talks</h2>
+        </div>
+        <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #4A4E54; max-width: 66ch; align-self: end">Everything the project produces is published here as it lands. Proof artefacts and code are open source; papers are posted as preprints on acceptance.</p>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px">
+        <sc-for list="{{ outputStreams }}" as="s" hint-placeholder-count="3">
+          <div style="background: #FBFBF9; border: 1px solid #E5E4DE; padding: 28px 26px 26px; display: grid; gap: 18px; align-content: start">
+            <div>
+              <h3 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 18px; letter-spacing: -0.01em; margin: 0 0 8px">{{ s.title }}</h3>
+              <p style="margin: 0; font-size: 14.5px; line-height: 1.5; color: #6B6F75">{{ s.blurb }}</p>
+            </div>
+            <div style="border: 1px dashed #C9C7BF; padding: 22px 18px; display: grid; gap: 12px">
+              <sc-for list="{{ s.slots }}" as="slot" hint-placeholder-count="3">
+                <div style="display: grid; gap: 7px">
+                  <div style="height: 9px; width: 78%; background: #E9E8E2"></div>
+                  <div style="height: 9px; width: 52%; background: #EFEEE9"></div>
+                </div>
+              </sc-for>
+              <div style="font-size: 12.5px; color: #8A8880; letter-spacing: 0.02em; margin-top: 4px">{{ s.emptyLabel }}</div>
+            </div>
+            <div style="font-size: 13px; color: #1F4E79; font-weight: 500">{{ s.link }}</div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <section id="team" style="border-top: 1px solid #E5E4DE">
+    <div style="max-width: 1160px; margin: 0 auto; padding: 76px 40px 40px">
+      <div style="display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 56px; margin-bottom: 48px">
+        <div>
+          <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600; margin-bottom: 14px">Team</div>
+          <h2 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 27px; line-height: 1.15; letter-spacing: -0.02em; margin: 0">Investigators</h2>
+        </div>
+        <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #4A4E54; max-width: 66ch; align-self: end">Expertise spanning information-flow security, program and security logics, Isabelle/HOL and AI-based proof automation, AI security and natural language processing. Investigators commit substantial FTE and remain active technical contributors throughout.</p>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: #E5E4DE; border: 1px solid #E5E4DE">
+        <sc-for list="{{ investigators }}" as="p" hint-placeholder-count="7">
+          <article style="background: #FBFBF9; padding: 28px 26px 26px; display: grid; gap: 16px; align-content: start">
+            <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 14px">
+              <sc-if value="{{ p.hasPhoto }}" hint-placeholder-val="{{ false }}">
+                <img src="{{ p.photo }}" alt="{{ p.name }}" style="width: 62px; height: 62px; object-fit: cover; border: 1px solid #E1E0D9; display: block" />
+              </sc-if>
+              <sc-if value="{{ p.noPhoto }}" hint-placeholder-val="{{ true }}">
+                <div style="width: 62px; height: 62px; background: repeating-linear-gradient(135deg, #EDECE6 0 6px, #F6F5F1 6px 12px); border: 1px solid #E1E0D9"></div>
+              </sc-if>
+              <span style="font-size: 10.5px; letter-spacing: 0.09em; text-transform: uppercase; font-weight: 600; color: #1F4E79; border: 1px solid #CBD9E6; background: #F1F5F9; padding: 4px 7px">{{ p.role }}</span>
+            </div>
+            <div>
+              <h3 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 18.5px; letter-spacing: -0.012em; margin: 0 0 4px">{{ p.name }}</h3>
+              <div style="font-size: 14px; color: #6B6F75">{{ p.affiliation }}</div>
+            </div>
+            <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #33383E">{{ p.bio }}</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px">
+              <sc-for list="{{ p.wps }}" as="w" hint-placeholder-count="2">
+                <span style="font-size: 11.5px; font-weight: 500; color: #4A4E54; border: 1px solid #E1E0D9; padding: 3px 7px">{{ w }}</span>
+              </sc-for>
+            </div>
+          </article>
+        </sc-for>
+        <article style="background: #F4F3EF; padding: 28px 26px; display: grid; gap: 10px; align-content: center">
+          <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; margin-bottom: 6px">
+            <img src="uploads/me (1).jpg" alt="Dr Gerwin Klein" style="width: 62px; height: 62px; object-fit: cover; object-position: 50% 20%; border: 1px solid #E1E0D9; display: block" />
+            <span style="font-size: 10.5px; letter-spacing: 0.09em; text-transform: uppercase; font-weight: 600; color: #7C7A73; border: 1px solid #E1E0D9; padding: 4px 7px">Collaborator</span>
+          </div>
+          <h3 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 18.5px; letter-spacing: -0.012em; margin: 0">Dr Gerwin Klein</h3>
+          <div style="font-size: 14px; color: #6B6F75">Chief Scientist, Proofcraft &middot; Chair, seL4 Foundation TSC</div>
+          <p style="margin: 4px 0 0; font-size: 15px; line-height: 1.55; color: #33383E">Led the team that completed the initial verification of seL4 and has maintained and extended it since. Advises on WP1&ndash;WP3.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="positions" style="background: #14181C; color: #F4F3EF; border-top: 1px solid #E5E4DE">
+    <div style="max-width: 1160px; margin: 0 auto; padding: 76px 40px 84px">
+      <div style="display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 56px; margin-bottom: 44px">
+        <div>
+          <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #8FB4D6; font-weight: 600; margin-bottom: 14px">Open positions</div>
+          <h2 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 27px; line-height: 1.15; letter-spacing: -0.02em; margin: 0; color: #FBFBF9">Nine posts on the project</h2>
+        </div>
+        <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #B9BCC0; max-width: 66ch; align-self: end">Seven senior researchers and two research engineers, hosted across Surrey, Sheffield and Melbourne. Each post works directly with investigators at 0.2&ndash;0.4 FTE supervision. Cards fill in with names and profiles as appointments are confirmed.</p>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px">
+        <sc-for list="{{ positions }}" as="pos" hint-placeholder-count="9">
+          <article style="border: 1px solid #2C3237; background: #191E23; padding: 24px 22px; display: grid; gap: 14px; align-content: start" style-hover="border-color: #40525F">
+            <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px">
+              <span style="font-family: Archivo, Helvetica, sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 0.06em; color: #8FB4D6">{{ pos.ref }}</span>
+              <span style="font-size: 10.5px; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 600; color: #14181C; background: #8FB4D6; padding: 3px 7px">{{ pos.status }}</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 14px">
+              <div style="width: 44px; height: 44px; border: 1px dashed #3A4249; display: grid; place-items: center; color: #5C666E; font-size: 18px; flex: none">&#43;</div>
+              <div>
+                <h3 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 16.5px; margin: 0 0 3px; color: #FBFBF9; line-height: 1.25">{{ pos.title }}</h3>
+                <div style="font-size: 13px; color: #9AA0A6">{{ pos.host }}</div>
+              </div>
+            </div>
+            <p style="margin: 0; font-size: 14.5px; line-height: 1.5; color: #B9BCC0">{{ pos.focus }}</p>
+            <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #2C3237; padding-top: 12px; font-size: 13px">
+              <span style="color: #8A9199">{{ pos.wp }}</span>
+              <span style="color: #8FB4D6; font-weight: 500">{{ pos.action }}</span>
+            </div>
+          </article>
+        </sc-for>
+      </div>
+      <div style="margin-top: 34px; border: 1px solid #2C3237; padding: 26px 24px; display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between">
+        <p style="margin: 0; font-size: 16px; line-height: 1.55; color: #B9BCC0; max-width: 62ch">Interested in one of these posts, or in an aligned PhD or visiting position? Write to the project lead with a CV and a short note on which work package fits you.</p>
+        <a href="#contact" style="color: #14181C; background: #F4F3EF; padding: 12px 20px; font-size: 14.5px; font-weight: 600; text-decoration: none; flex: none">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="partners" style="border-top: 1px solid #E5E4DE">
+    <div style="max-width: 1160px; margin: 0 auto; padding: 72px 40px 76px">
+      <div style="display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 56px; margin-bottom: 40px">
+        <div>
+          <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600; margin-bottom: 14px">Partners</div>
+          <h2 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 27px; line-height: 1.15; letter-spacing: -0.02em; margin: 0">Stakeholders</h2>
+        </div>
+        <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #4A4E54; max-width: 66ch; align-self: end">Proofcraft and the seL4 Foundation follow the project directly; the Red Team stress-tests each runtime release. Findings feed back into the runtime monitor, the threat model and the formal capability models.</p>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1px; background: #E5E4DE; border: 1px solid #E5E4DE; margin-bottom: 34px">
+        <sc-for list="{{ partners }}" as="org" hint-placeholder-count="4">
+          <div style="background: #FBFBF9; padding: 26px 20px; display: grid; gap: 14px; justify-items: center; text-align: center">
+            <div style="width: 100%; height: 54px; background: repeating-linear-gradient(90deg, #EDECE6 0 5px, #F7F6F2 5px 10px); border: 1px solid #E1E0D9; display: grid; place-items: center; font-family: ui-monospace, Menlo, monospace; font-size: 10.5px; color: #8A8880; letter-spacing: 0.04em">logo</div>
+            <div>
+              <div style="font-size: 14.5px; font-weight: 600">{{ org.name }}</div>
+              <div style="font-size: 12.5px; color: #7C7A73; margin-top: 3px">{{ org.role }}</div>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+      <div style="border-left: 3px solid #1F4E79; padding-left: 26px; max-width: 78ch">
+        <p style="margin: 0 0 14px; font-size: 18px; line-height: 1.55; font-style: italic; color: #14181C">&ldquo;The capability model proposed in Agentic-seL4 is a perfect fit for the dynamic nature of LLM-based workloads, which clearly struggle with traditional static access control models.&rdquo;</p>
+        <div style="font-size: 14px; color: #6B6F75">Dr Gerwin Klein &mdash; Chief Scientist, Proofcraft; Chair, seL4 Foundation Technical Steering Committee</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="updates" style="border-top: 1px solid #E5E4DE; background: #F4F3EF">
+    <div style="max-width: 1160px; margin: 0 auto; padding: 76px 40px 84px">
+      <div style="display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 56px; margin-bottom: 40px">
+        <div>
+          <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600; margin-bottom: 14px">Updates</div>
+          <h2 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 27px; line-height: 1.15; letter-spacing: -0.02em; margin: 0">Notes from the sprints</h2>
+        </div>
+        <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #4A4E54; max-width: 66ch; align-self: end">Short posts at the end of each sprint: what shipped in the runtime, what was proved, what the Red Team found. The first entry lands with sprint&nbsp;1.</p>
+      </div>
+      <div style="display: grid; gap: 1px; background: #E5E4DE; border-top: 1px solid #E5E4DE; border-bottom: 1px solid #E5E4DE">
+        <sc-for list="{{ updateSlots }}" as="u" hint-placeholder-count="3">
+          <div style="background: #FBFBF9; display: grid; grid-template-columns: 160px minmax(0, 1fr) 140px; gap: 32px; padding: 26px 4px; align-items: center">
+            <div style="font-family: ui-monospace, Menlo, monospace; font-size: 12.5px; color: #8A8880; letter-spacing: 0.04em">{{ u.when }}</div>
+            <div style="display: grid; gap: 8px">
+              <div style="height: 11px; width: 44%; background: #E9E8E2"></div>
+              <div style="height: 9px; width: 66%; background: #EFEEE9"></div>
+            </div>
+            <div style="font-size: 12.5px; color: #8A8880; text-align: right">{{ u.tag }}</div>
+          </div>
+        </sc-for>
+      </div>
+      <p style="margin: 22px 0 0; font-size: 14px; color: #8A8880">Placeholder rows. Replace each with a title, date and link as posts are published.</p>
+    </div>
+  </section>
+
+  <section id="contact" style="border-top: 1px solid #E5E4DE">
+    <div style="max-width: 1160px; margin: 0 auto; padding: 76px 40px 80px; display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 56px">
+      <div>
+        <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600; margin-bottom: 14px">Contact</div>
+        <h2 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 27px; line-height: 1.15; letter-spacing: -0.02em; margin: 0">Get in touch</h2>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: #E5E4DE; border: 1px solid #E5E4DE; align-content: start">
+        <div style="background: #FBFBF9; padding: 26px 24px; display: grid; gap: 8px; align-content: start">
+          <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #7C7A73">Project lead</div>
+          <div style="font-size: 16px; font-weight: 600">Prof Brijesh Dongol</div>
+          <div style="font-size: 14.5px; color: #4A4E54">University of Surrey</div>
+          <a href="#contact" style="font-size: 14.5px">email address &rarr;</a>
+        </div>
+        <div style="background: #FBFBF9; padding: 26px 24px; display: grid; gap: 8px; align-content: start">
+          <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #7C7A73">Code &amp; proofs</div>
+          <div style="font-size: 16px; font-weight: 600">Repositories</div>
+          <div style="font-size: 14.5px; color: #4A4E54">Runtime, wrappers, Isabelle theories</div>
+          <a href="#outputs" style="font-size: 14.5px">repository link &rarr;</a>
+        </div>
+        <div style="background: #FBFBF9; padding: 26px 24px; display: grid; gap: 8px; align-content: start">
+          <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #7C7A73">Hiring</div>
+          <div style="font-size: 16px; font-weight: 600">Nine open posts</div>
+          <div style="font-size: 14.5px; color: #4A4E54">Surrey, Sheffield, Melbourne</div>
+          <a href="#positions" style="font-size: 14.5px">see positions &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer style="border-top: 1px solid #E5E4DE; background: #F4F3EF">
+    <div style="max-width: 1160px; margin: 0 auto; padding: 34px 40px; display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between; align-items: center; font-size: 13px; color: #7C7A73">
+      <div>Agentic-seL4 &mdash; Provably Secure Capability-Based Sandboxing of AI Agents</div>
+      <div>Universities of Surrey, Sheffield and Melbourne &middot; with Proofcraft</div>
+    </div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showPositions&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Content&quot;},&quot;positionCount&quot;:{&quot;editor&quot;:&quot;int&quot;,&quot;default&quot;:9,&quot;min&quot;:1,&quot;max&quot;:9,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Content&quot;},&quot;outputSlotRows&quot;:{&quot;editor&quot;:&quot;int&quot;,&quot;default&quot;:3,&quot;min&quot;:1,&quot;max&quot;:6,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Content&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    const showPositions = this.props.showPositions ?? true;
+    const positionCount = Math.max(1, Math.min(12, this.props.positionCount ?? 9));
+    const outputSlots = Math.max(1, Math.min(6, this.props.outputSlotRows ?? 3));
+
+    const workPackages = [
+      {
+        id: "WP1", objective: "Objective O1", lead: "Murray",
+        title: "Agent-aware runtime monitor for seL4",
+        summary: "An abstraction layer above seL4's capability system that acts as a runtime monitor for AI agents: dynamic creation, delegation and revocation of capabilities, with temporary privilege escalation and managed access to sensitive data handled by carefully specified userland processes.",
+        tasks: [
+          { id: "T1.1", text: "Derive requirements from single- and multi-agent workflows" },
+          { id: "T1.2", text: "API and rules for capability delegation, with runtime-enforced contracts" },
+          { id: "T1.3", text: "Formalise the monitor and prove capability-safety and dynamic information-flow security" }
+        ]
+      },
+      {
+        id: "WP2", objective: "Objective O2", lead: "Dongol",
+        title: "Agentic-seL4 runtime stack and evaluation",
+        summary: "An experimental stack hosting realistic agentic workloads, mapping agent tools, data sources and external services onto capability patterns. Evaluated with benign and prompt-injection scenarios to demonstrate end-to-end containment. A Linux reference design runs in parallel.",
+        tasks: [
+          { id: "T2.1", text: "Runtime architecture mapped to seL4 protection domains and IPC protocols" },
+          { id: "T2.2", text: "Wrap open-source agent frameworks with capability-mediated tool interfaces" },
+          { id: "T2.3", text: "Red Team adversarial workloads; refine monitor and formal models" }
+        ]
+      },
+      {
+        id: "WP3", objective: "Objective O3", lead: "Dongol, Murray, Popescu",
+        title: "Information-flow security theorems for agentic seL4",
+        summary: "The existing seL4 security proofs support only static intransitive noninterference over statically bounded capability propagation. WP3 generalises them to dynamic policies covering the reference monitor, and modernises 40KLOC of proof via a monadic relational Hoare logic with a rely\u2013guarantee layer.",
+        tasks: [
+          { id: "T3.1", text: "Extend access-control and information-flow policy languages to dynamic behaviour" },
+          { id: "T3.2", text: "Formulate integrity, authority confinement and information-flow theorems" },
+          { id: "T3.3", text: "Prove them modularly, then compose into end-to-end results" },
+          { id: "T3.4", text: "Modernise proofs: relational models, bounded deducibility, relative security" },
+          { id: "T3.5", text: "Instantiate with concrete WP2 scenarios" }
+        ]
+      },
+      {
+        id: "WP4", objective: "Objective O4", lead: "Popescu",
+        title: "Advancing Isabelle/HOL as a neural theorem proving platform",
+        summary: "Open-source LLMs fine-tuned on the seL4 proof base and trained with Isabelle's verification feedback as reward, integrated as user-in-the-loop agents that maintain, extend and refactor proofs \u2014 without expanding Isabelle's trusted computing base.",
+        tasks: [
+          { id: "T4.1", text: "Curate and annotate training corpora from the seL4 proof base" },
+          { id: "T4.2", text: "Proof agents for whole-proof generation, repair and refactoring" },
+          { id: "T4.3", text: "Benchmark against live WP3 verification tasks" },
+          { id: "T4.4", text: "Principles and failure modes for AI-assisted Isabelle verification" }
+        ]
+      }
+    ];
+
+    const R = (typeof window !== "undefined" && window.__resources) || {};
+    const photos = {
+      "Prof Andrei Popescu": R.popescu || "https://sheffield.ac.uk/sites/default/files/styles/profile_square_lg_1x/public/2024-02/Andrei.jpeg?h=24cc8377&itok=qV6hinAy",
+      "Prof Toby Murray": R.murray || "uploads/TobyMurray2025-2-600x600.png",
+      "Prof Brijesh Dongol": R.dongol || "uploads/me.jpg",
+      "Prof Cezary Kaliszyk": R.kaliszyk || "https://ckaliszyk.github.io/img/cezary_kaliszyk-24.jpg",
+      "Dr Marco Valentino": R.valentino || "https://sheffield.ac.uk/sites/default/files/styles/profile_square_lg_1x/public/2025-07/profile.png?h=ff4e460d&itok=HQv2o4Rr",
+      "Prof Nikos Aletras": R.aletras || "https://sheffield.ac.uk/sites/default/files/styles/profile_square_lg_1x/public/2024-08/FoE_Headshots_162.jpg?h=555ba530&itok=QRB34eht",
+      "Dr Aryan Pasikhani": R.pasikhani || "https://sheffield.ac.uk/sites/default/files/styles/profile_square_lg_1x/public/2023-03/2023-03-08%2013.21.59%20%281%29.jpg?h=534b93c5&itok=weuMshE4"
+    };
+    const investigators = [
+      { name: "Prof Brijesh Dongol", affiliation: "University of Surrey", role: "PI \u00b7 Project lead", wps: ["Leads WP2", "Co-leads WP3", "0.3 FTE"], bio: "Co-Director of VeTSS. Expert in formal methods for concurrent and distributed systems, program logics, memory models and security. Distinguished artefact award, ESOP 2022." },
+      { name: "Prof Andrei Popescu", affiliation: "University of Sheffield", role: "PI", wps: ["Leads WP4", "Co-leads WP3", "0.4 FTE"], bio: "Compositional mechanisms for information-flow security in Isabelle. Three POPL Distinguished Paper Awards; 27 AFP entries; co-developer of the verified CoCon conference system." },
+      { name: "Prof Toby Murray", affiliation: "University of Melbourne", role: "PI", wps: ["Leads WP1", "Co-leads WP3", "0.3 FTE"], bio: "Director of the Defence Science Institute. Led the seL4 information-flow security proofs at NICTA. 2021 Eureka Prize; 2022 ACM Software System Award." },
+      { name: "Prof Cezary Kaliszyk", affiliation: "University of Melbourne", role: "Co-I", wps: ["WP4", "0.2 FTE"], bio: "Automated theorem proving, formalised mathematics and learning for reasoning. ERC starting grant holder; machine-learning guidance for state-of-the-art provers." },
+      { name: "Dr Marco Valentino", affiliation: "University of Sheffield", role: "Co-I", wps: ["WP2", "WP4", "0.3 FTE"], bio: "AI systems for learning and reasoning in complex domains, and practical Isabelle deployments in neurosymbolic settings. EMNLP 2025 Best Resource Paper; EMNLP 2024 Outstanding Paper." },
+      { name: "Prof Nikos Aletras", affiliation: "University of Sheffield", role: "Co-I", wps: ["WP2", "WP4", "0.2 FTE"], bio: "Leads Sheffield's NLP group. Expert on large language models with recent breakthroughs in neurosymbolic reasoning. Advises on LLM development." },
+      { name: "Dr Aryan Pasikhani", affiliation: "University of Sheffield", role: "Co-I \u00b7 Purple Team", wps: ["WP2", "Red Team liaison"], bio: "AI security, offensive AI and adversarial machine learning. Founder of CybPass, a Sheffield spin-out providing security testing for AI systems." }
+    ];
+
+    const allPositions = [
+      { ref: "PDRA-01", title: "Senior Researcher \u2014 capability runtime monitor", host: "University of Melbourne", focus: "Design and formalise the agent-aware monitor: dynamic delegation, revocation and runtime contracts.", wp: "WP1", status: "Recruiting", action: "Apply \u2192" },
+      { ref: "PDRA-02", title: "Senior Researcher \u2014 agentic threat modelling", host: "University of Sheffield", focus: "Requirements from single- and multi-agent workflows; prompt-injection threat model with the Purple Team.", wp: "WP1 / WP2", status: "Recruiting", action: "Apply \u2192" },
+      { ref: "PDRA-03", title: "Senior Researcher \u2014 agent framework integration", host: "University of Surrey", focus: "Capability-mediated tool interfaces for open-source agent frameworks, with monitoring hooks.", wp: "WP2", status: "Recruiting", action: "Apply \u2192" },
+      { ref: "PDRA-04", title: "Senior Researcher \u2014 dynamic information-flow policy", host: "University of Surrey", focus: "Extend seL4's access-control and information-flow policy languages to dynamic agentic behaviour.", wp: "WP3", status: "Recruiting", action: "Apply \u2192" },
+      { ref: "PDRA-05", title: "Senior Researcher \u2014 Isabelle security proofs", host: "University of Melbourne", focus: "Prove integrity, authority confinement and noninterference for the combined kernel/monitor system.", wp: "WP3", status: "Opening soon", action: "Register interest \u2192" },
+      { ref: "PDRA-06", title: "Senior Researcher \u2014 proof modernisation", host: "University of Sheffield", focus: "Monadic relational Hoare logic with rely\u2013guarantee; bounded deducibility and relative security frameworks.", wp: "WP3", status: "Opening soon", action: "Register interest \u2192" },
+      { ref: "PDRA-07", title: "Senior Researcher \u2014 neural theorem proving", host: "University of Sheffield", focus: "Fine-tuning and RL on the seL4 proof base; proof agents for generation, repair and refactoring.", wp: "WP4", status: "Recruiting", action: "Apply \u2192" },
+      { ref: "RE-01", title: "Research Engineer \u2014 seL4 systems", host: "University of Surrey", focus: "Build the runtime stack on seL4 and the parallel Linux reference design; logging and monitoring.", wp: "WP2", status: "Recruiting", action: "Apply \u2192" },
+      { ref: "RE-02", title: "Research Engineer \u2014 Isabelle tooling", host: "University of Sheffield", focus: "Data pipelines, PIDE integration and evaluation harnesses for the Isabelle proof agents.", wp: "WP4", status: "Opening soon", action: "Register interest \u2192" }
+    ];
+
+    const emptyRows = Array.from({ length: outputSlots }, (_, i) => ({ i }));
+
+    return {
+      workPackages,
+      investigators: investigators.map(p => ({ ...p, photo: photos[p.name], hasPhoto: !!photos[p.name], noPhoto: !photos[p.name] })),
+      positions: showPositions ? allPositions.slice(0, positionCount) : [],
+      showPositions,
+      partners: [
+        { name: "University of Surrey", role: "Lead institution" },
+        { name: "University of Sheffield", role: "Partner" },
+        { name: "University of Melbourne", role: "Partner" },
+        { name: "Proofcraft", role: "Collaborator" }
+      ],
+      outputStreams: [
+        { title: "Publications", blurb: "Papers and preprints on capability models, dynamic information-flow security and neural theorem proving.", emptyLabel: "No publications yet \u2014 first submissions expected from sprint 2.", link: "Preprint list \u2192", slots: emptyRows },
+        { title: "Software & proof artefacts", blurb: "The runtime stack, seL4-aware tool wrappers, Isabelle theories and AFP entries. Open source.", emptyLabel: "No releases yet \u2014 repositories open with the first sprint.", link: "Repositories \u2192", slots: emptyRows },
+        { title: "Talks & news", blurb: "Conference talks, tutorials, seL4 Summit contributions and project announcements.", emptyLabel: "No talks scheduled yet.", link: "All talks \u2192", slots: emptyRows }
+      ],
+      updateSlots: [
+        { when: "Sprint 1", tag: "Runtime \u00b7 WP1" },
+        { when: "Sprint 2", tag: "Linux reference \u00b7 WP2" },
+        { when: "Sprint 3", tag: "Red Team \u00b7 WP2" }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

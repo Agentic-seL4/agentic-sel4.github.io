@@ -1,0 +1,1609 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas" />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  body { margin: 0; background: #F4F3EF; color: #14181C; font-family: "Public Sans", Helvetica, sans-serif; }
+  a { color: #1F4E79; text-decoration: none; }
+  a:hover { color: #16395A; text-decoration: underline; }
+</style>
+</helmet>
+
+<section style="padding: 56px 56px 64px; display: grid; gap: 32px; background: #F0EFEA; border-bottom: 1px solid #E5E4DE">
+  <div style="display: grid; gap: 10px; max-width: 78ch">
+    <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600">Turn 11 &middot; 9d ring shade</div>
+    <h1 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 34px; letter-spacing: -0.02em; margin: 0">Darker trust boundary</h1>
+    <p style="margin: 0; font-size: 16.5px; line-height: 1.6; color: #4A4E54">9d with the ring stepped down in lightness, same hue. 11c is nearly the kernel's own weight, so the two boundaries start to read as one enclosure.</p>
+  </div>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px">
+    <div id="11a" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">11a</span>
+        <span style="font-size: 12.5px; color: #7C7A73">One step darker</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 78px; height: 78px; flex: none">
+            <div style="position: absolute; inset: 0; border: 4px solid oklch(0.62 0.07 250); border-radius: 18px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 10px; left: 10px; width: 58px; height: 58px; border: 5px solid #1F4E79; border-radius: 12px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 10px; height: 5px; left: 34px; top: 63px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; left: 28px; top: 29px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 36px; height: 36px">
+            <div style="position: absolute; inset: 0; border: 2px solid oklch(0.62 0.07 250); border-radius: 8px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 5px; left: 5px; width: 26px; height: 26px; border: 3px solid #1F4E79; border-radius: 6px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 5px; height: 3px; left: 15.5px; top: 28px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; left: 13px; top: 12.5px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="width: 48px; height: 48px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 34px; height: 34px">
+              <div style="position: absolute; inset: 0; border: 2px solid oklch(0.58 0.07 250); border-radius: 8px; box-sizing: border-box"></div>
+              <div style="position: absolute; top: 5px; left: 5px; width: 24px; height: 24px; border: 3px solid #8FB4D6; border-radius: 6px; box-sizing: border-box"></div>
+              <div style="position: absolute; width: 5px; height: 3px; left: 14.5px; top: 26px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; left: 12px; top: 11.5px; background: oklch(0.68 0.13 40); border-radius: 999px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="11b" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">11b</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Two steps darker</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 78px; height: 78px; flex: none">
+            <div style="position: absolute; inset: 0; border: 4px solid oklch(0.56 0.08 250); border-radius: 18px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 10px; left: 10px; width: 58px; height: 58px; border: 5px solid #1F4E79; border-radius: 12px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 10px; height: 5px; left: 34px; top: 63px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; left: 28px; top: 29px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 36px; height: 36px">
+            <div style="position: absolute; inset: 0; border: 2px solid oklch(0.56 0.08 250); border-radius: 8px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 5px; left: 5px; width: 26px; height: 26px; border: 3px solid #1F4E79; border-radius: 6px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 5px; height: 3px; left: 15.5px; top: 28px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; left: 13px; top: 12.5px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="width: 48px; height: 48px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 34px; height: 34px">
+              <div style="position: absolute; inset: 0; border: 2px solid oklch(0.62 0.07 250); border-radius: 8px; box-sizing: border-box"></div>
+              <div style="position: absolute; top: 5px; left: 5px; width: 24px; height: 24px; border: 3px solid #8FB4D6; border-radius: 6px; box-sizing: border-box"></div>
+              <div style="position: absolute; width: 5px; height: 3px; left: 14.5px; top: 26px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; left: 12px; top: 11.5px; background: oklch(0.68 0.13 40); border-radius: 999px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="11c" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">11c</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Three steps darker</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 78px; height: 78px; flex: none">
+            <div style="position: absolute; inset: 0; border: 4px solid oklch(0.50 0.08 250); border-radius: 18px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 10px; left: 10px; width: 58px; height: 58px; border: 5px solid #1F4E79; border-radius: 12px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 10px; height: 5px; left: 34px; top: 63px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; left: 28px; top: 29px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 36px; height: 36px">
+            <div style="position: absolute; inset: 0; border: 2px solid oklch(0.50 0.08 250); border-radius: 8px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 5px; left: 5px; width: 26px; height: 26px; border: 3px solid #1F4E79; border-radius: 6px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 5px; height: 3px; left: 15.5px; top: 28px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; left: 13px; top: 12.5px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="width: 48px; height: 48px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 34px; height: 34px">
+              <div style="position: absolute; inset: 0; border: 2px solid oklch(0.66 0.07 250); border-radius: 8px; box-sizing: border-box"></div>
+              <div style="position: absolute; top: 5px; left: 5px; width: 24px; height: 24px; border: 3px solid #8FB4D6; border-radius: 6px; box-sizing: border-box"></div>
+              <div style="position: absolute; width: 5px; height: 3px; left: 14.5px; top: 26px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; left: 12px; top: 11.5px; background: oklch(0.68 0.13 40); border-radius: 999px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding: 56px 56px 64px; display: grid; gap: 32px; background: #FBFBF9; border-bottom: 1px solid #E5E4DE">
+  <div style="display: grid; gap: 10px; max-width: 78ch">
+    <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600">Turn 10 &middot; 9d kernel colours</div>
+    <h1 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 34px; letter-spacing: -0.02em; margin: 0">Kernel colour against a pale ring</h1>
+    <p style="margin: 0; font-size: 16.5px; line-height: 1.6; color: #4A4E54">9d as drawn &mdash; pale blue trust boundary, rust core &mdash; with the kernel boundary taking a different colour each time. 9d's own deep blue kernel sits below as the baseline.</p>
+  </div>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px">
+    <div id="10a" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">10a</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Ink kernel</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 78px; height: 78px; flex: none">
+            <div style="position: absolute; inset: 0; border: 4px solid oklch(0.68 0.06 250); border-radius: 18px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 10px; left: 10px; width: 58px; height: 58px; border: 5px solid #14181C; border-radius: 12px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 10px; height: 5px; left: 34px; top: 63px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; left: 28px; top: 29px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 36px; height: 36px">
+            <div style="position: absolute; inset: 0; border: 2px solid oklch(0.68 0.06 250); border-radius: 8px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 5px; left: 5px; width: 26px; height: 26px; border: 3px solid #14181C; border-radius: 6px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 5px; height: 3px; left: 15.5px; top: 28px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; left: 13px; top: 12.5px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="width: 48px; height: 48px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 34px; height: 34px">
+              <div style="position: absolute; inset: 0; border: 2px solid oklch(0.55 0.07 250); border-radius: 8px; box-sizing: border-box"></div>
+              <div style="position: absolute; top: 5px; left: 5px; width: 24px; height: 24px; border: 3px solid #FBFBF9; border-radius: 6px; box-sizing: border-box"></div>
+              <div style="position: absolute; width: 5px; height: 3px; left: 14.5px; top: 26px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; left: 12px; top: 11.5px; background: oklch(0.68 0.13 40); border-radius: 999px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="10b" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">10b</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Teal kernel</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 78px; height: 78px; flex: none">
+            <div style="position: absolute; inset: 0; border: 4px solid oklch(0.68 0.06 250); border-radius: 18px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 10px; left: 10px; width: 58px; height: 58px; border: 5px solid oklch(0.45 0.09 205); border-radius: 12px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 10px; height: 5px; left: 34px; top: 63px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; left: 28px; top: 29px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 36px; height: 36px">
+            <div style="position: absolute; inset: 0; border: 2px solid oklch(0.68 0.06 250); border-radius: 8px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 5px; left: 5px; width: 26px; height: 26px; border: 3px solid oklch(0.45 0.09 205); border-radius: 6px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 5px; height: 3px; left: 15.5px; top: 28px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; left: 13px; top: 12.5px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="width: 48px; height: 48px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 34px; height: 34px">
+              <div style="position: absolute; inset: 0; border: 2px solid oklch(0.55 0.07 250); border-radius: 8px; box-sizing: border-box"></div>
+              <div style="position: absolute; top: 5px; left: 5px; width: 24px; height: 24px; border: 3px solid oklch(0.74 0.09 205); border-radius: 6px; box-sizing: border-box"></div>
+              <div style="position: absolute; width: 5px; height: 3px; left: 14.5px; top: 26px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; left: 12px; top: 11.5px; background: oklch(0.68 0.13 40); border-radius: 999px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="10c" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">10c</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Green kernel</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 78px; height: 78px; flex: none">
+            <div style="position: absolute; inset: 0; border: 4px solid oklch(0.68 0.06 250); border-radius: 18px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 10px; left: 10px; width: 58px; height: 58px; border: 5px solid oklch(0.45 0.10 155); border-radius: 12px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 10px; height: 5px; left: 34px; top: 63px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; left: 28px; top: 29px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 36px; height: 36px">
+            <div style="position: absolute; inset: 0; border: 2px solid oklch(0.68 0.06 250); border-radius: 8px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 5px; left: 5px; width: 26px; height: 26px; border: 3px solid oklch(0.45 0.10 155); border-radius: 6px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 5px; height: 3px; left: 15.5px; top: 28px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; left: 13px; top: 12.5px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="width: 48px; height: 48px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 34px; height: 34px">
+              <div style="position: absolute; inset: 0; border: 2px solid oklch(0.55 0.07 250); border-radius: 8px; box-sizing: border-box"></div>
+              <div style="position: absolute; top: 5px; left: 5px; width: 24px; height: 24px; border: 3px solid oklch(0.74 0.10 155); border-radius: 6px; box-sizing: border-box"></div>
+              <div style="position: absolute; width: 5px; height: 3px; left: 14.5px; top: 26px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; left: 12px; top: 11.5px; background: oklch(0.68 0.13 40); border-radius: 999px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="10d" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">10d</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Indigo kernel</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 78px; height: 78px; flex: none">
+            <div style="position: absolute; inset: 0; border: 4px solid oklch(0.68 0.06 250); border-radius: 18px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 10px; left: 10px; width: 58px; height: 58px; border: 5px solid oklch(0.42 0.11 285); border-radius: 12px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 10px; height: 5px; left: 34px; top: 63px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; left: 28px; top: 29px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 36px; height: 36px">
+            <div style="position: absolute; inset: 0; border: 2px solid oklch(0.68 0.06 250); border-radius: 8px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 5px; left: 5px; width: 26px; height: 26px; border: 3px solid oklch(0.42 0.11 285); border-radius: 6px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 5px; height: 3px; left: 15.5px; top: 28px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; left: 13px; top: 12.5px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="width: 48px; height: 48px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 34px; height: 34px">
+              <div style="position: absolute; inset: 0; border: 2px solid oklch(0.55 0.07 250); border-radius: 8px; box-sizing: border-box"></div>
+              <div style="position: absolute; top: 5px; left: 5px; width: 24px; height: 24px; border: 3px solid oklch(0.74 0.10 285); border-radius: 6px; box-sizing: border-box"></div>
+              <div style="position: absolute; width: 5px; height: 3px; left: 14.5px; top: 26px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; left: 12px; top: 11.5px; background: oklch(0.68 0.13 40); border-radius: 999px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding: 56px 56px 64px; display: grid; gap: 32px; background: #F0EFEA; border-bottom: 1px solid #E5E4DE">
+  <div style="display: grid; gap: 10px; max-width: 78ch">
+    <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600">Turn 9 &middot; 8a ring colours</div>
+    <h1 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 34px; letter-spacing: -0.02em; margin: 0">Colouring the enclosing boundary</h1>
+    <p style="margin: 0; font-size: 16.5px; line-height: 1.6; color: #4A4E54">8a held fixed &mdash; blue kernel, rust core, gate on the bottom edge. Only the outer ring changes. Blue-on-blue from 8a and stone from 8c sit below for comparison.</p>
+  </div>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px">
+<div id="9a" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">9a</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Green &mdash; proved</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 78px; height: 78px; flex: none">
+            <div style="position: absolute; inset: 0; border: 4px solid oklch(0.48 0.11 150); border-radius: 18px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 10px; left: 10px; width: 58px; height: 58px; border: 5px solid #1F4E79; border-radius: 12px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 10px; height: 5px; left: 34px; top: 63px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; left: 28px; top: 29px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 36px; height: 36px">
+            <div style="position: absolute; inset: 0; border: 2px solid oklch(0.48 0.11 150); border-radius: 8px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 5px; left: 5px; width: 26px; height: 26px; border: 3px solid #1F4E79; border-radius: 6px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 5px; height: 3px; left: 15.5px; top: 28px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; left: 13px; top: 12.5px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="width: 48px; height: 48px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 34px; height: 34px">
+              <div style="position: absolute; inset: 0; border: 2px solid oklch(0.70 0.11 150); border-radius: 8px; box-sizing: border-box"></div>
+              <div style="position: absolute; top: 5px; left: 5px; width: 24px; height: 24px; border: 3px solid #8FB4D6; border-radius: 6px; box-sizing: border-box"></div>
+              <div style="position: absolute; width: 5px; height: 3px; left: 14.5px; top: 26px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; left: 12px; top: 11.5px; background: oklch(0.68 0.13 40); border-radius: 999px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+<div id="9b" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">9b</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Teal</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 78px; height: 78px; flex: none">
+            <div style="position: absolute; inset: 0; border: 4px solid oklch(0.48 0.09 205); border-radius: 18px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 10px; left: 10px; width: 58px; height: 58px; border: 5px solid #1F4E79; border-radius: 12px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 10px; height: 5px; left: 34px; top: 63px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; left: 28px; top: 29px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 36px; height: 36px">
+            <div style="position: absolute; inset: 0; border: 2px solid oklch(0.48 0.09 205); border-radius: 8px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 5px; left: 5px; width: 26px; height: 26px; border: 3px solid #1F4E79; border-radius: 6px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 5px; height: 3px; left: 15.5px; top: 28px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; left: 13px; top: 12.5px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="width: 48px; height: 48px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 34px; height: 34px">
+              <div style="position: absolute; inset: 0; border: 2px solid oklch(0.72 0.09 205); border-radius: 8px; box-sizing: border-box"></div>
+              <div style="position: absolute; top: 5px; left: 5px; width: 24px; height: 24px; border: 3px solid #8FB4D6; border-radius: 6px; box-sizing: border-box"></div>
+              <div style="position: absolute; width: 5px; height: 3px; left: 14.5px; top: 26px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; left: 12px; top: 11.5px; background: oklch(0.68 0.13 40); border-radius: 999px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+<div id="9c" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">9c</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Ink</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 78px; height: 78px; flex: none">
+            <div style="position: absolute; inset: 0; border: 4px solid #14181C; border-radius: 18px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 10px; left: 10px; width: 58px; height: 58px; border: 5px solid #1F4E79; border-radius: 12px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 10px; height: 5px; left: 34px; top: 63px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; left: 28px; top: 29px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 36px; height: 36px">
+            <div style="position: absolute; inset: 0; border: 2px solid #14181C; border-radius: 8px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 5px; left: 5px; width: 26px; height: 26px; border: 3px solid #1F4E79; border-radius: 6px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 5px; height: 3px; left: 15.5px; top: 28px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; left: 13px; top: 12.5px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="width: 48px; height: 48px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 34px; height: 34px">
+              <div style="position: absolute; inset: 0; border: 2px solid #FBFBF9; border-radius: 8px; box-sizing: border-box"></div>
+              <div style="position: absolute; top: 5px; left: 5px; width: 24px; height: 24px; border: 3px solid #8FB4D6; border-radius: 6px; box-sizing: border-box"></div>
+              <div style="position: absolute; width: 5px; height: 3px; left: 14.5px; top: 26px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; left: 12px; top: 11.5px; background: oklch(0.68 0.13 40); border-radius: 999px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+<div id="9d" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">9d</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Pale blue &mdash; tint of the kernel</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 78px; height: 78px; flex: none">
+            <div style="position: absolute; inset: 0; border: 4px solid oklch(0.68 0.06 250); border-radius: 18px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 10px; left: 10px; width: 58px; height: 58px; border: 5px solid #1F4E79; border-radius: 12px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 10px; height: 5px; left: 34px; top: 63px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; left: 28px; top: 29px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 36px; height: 36px">
+            <div style="position: absolute; inset: 0; border: 2px solid oklch(0.68 0.06 250); border-radius: 8px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 5px; left: 5px; width: 26px; height: 26px; border: 3px solid #1F4E79; border-radius: 6px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 5px; height: 3px; left: 15.5px; top: 28px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; left: 13px; top: 12.5px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="width: 48px; height: 48px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 34px; height: 34px">
+              <div style="position: absolute; inset: 0; border: 2px solid oklch(0.55 0.07 250); border-radius: 8px; box-sizing: border-box"></div>
+              <div style="position: absolute; top: 5px; left: 5px; width: 24px; height: 24px; border: 3px solid #8FB4D6; border-radius: 6px; box-sizing: border-box"></div>
+              <div style="position: absolute; width: 5px; height: 3px; left: 14.5px; top: 26px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; left: 12px; top: 11.5px; background: oklch(0.68 0.13 40); border-radius: 999px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+</section>
+
+<section style="padding: 56px 56px 64px; display: grid; gap: 32px; background: #FBFBF9; border-bottom: 1px solid #E5E4DE">
+  <div style="display: grid; gap: 10px; max-width: 78ch">
+    <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600">Turn 8 &middot; 7a with an enclosing boundary</div>
+    <h1 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 34px; letter-spacing: -0.02em; margin: 0">Trust boundary all around</h1>
+    <p style="margin: 0; font-size: 16.5px; line-height: 1.6; color: #4A4E54">The blue line from 7a wrapped into a ring enclosing the whole sandbox, so the trust boundary contains rather than sits beneath. 8b keeps the escape route legible by breaking the ring at the gate.</p>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 20px">
+
+    <div id="8a" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">8a</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Closed ring</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 78px; height: 78px; flex: none">
+            <div style="position: absolute; inset: 0; border: 4px solid #1F4E79; border-radius: 18px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 10px; left: 10px; width: 58px; height: 58px; border: 5px solid #1F4E79; border-radius: 12px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 10px; height: 5px; left: 34px; top: 63px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; left: 28px; top: 29px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 36px; height: 36px">
+            <div style="position: absolute; inset: 0; border: 2px solid #1F4E79; border-radius: 8px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 5px; left: 5px; width: 26px; height: 26px; border: 3px solid #1F4E79; border-radius: 6px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 5px; height: 3px; left: 15.5px; top: 28px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; left: 13px; top: 12.5px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="width: 48px; height: 48px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 34px; height: 34px">
+              <div style="position: absolute; inset: 0; border: 2px solid #8FB4D6; border-radius: 8px; box-sizing: border-box"></div>
+              <div style="position: absolute; top: 5px; left: 5px; width: 24px; height: 24px; border: 3px solid #8FB4D6; border-radius: 6px; box-sizing: border-box"></div>
+              <div style="position: absolute; width: 5px; height: 3px; left: 14.5px; top: 26px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; left: 12px; top: 11.5px; background: oklch(0.68 0.13 40); border-radius: 999px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="8b" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">8b</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Ring broken at the gate</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 78px; height: 78px; flex: none">
+            <div style="position: absolute; inset: 0; border: 4px solid #1F4E79; border-radius: 18px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 16px; height: 4px; left: 31px; bottom: 0; background: #FBFBF9"></div>
+            <div style="position: absolute; top: 10px; left: 10px; width: 58px; height: 58px; border: 5px solid #1F4E79; border-radius: 12px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 10px; height: 5px; left: 34px; top: 63px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; left: 28px; top: 29px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 36px; height: 36px">
+            <div style="position: absolute; inset: 0; border: 2px solid #1F4E79; border-radius: 8px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 8px; height: 2px; left: 14px; bottom: 0; background: #FBFBF9"></div>
+            <div style="position: absolute; top: 5px; left: 5px; width: 26px; height: 26px; border: 3px solid #1F4E79; border-radius: 6px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 5px; height: 3px; left: 15.5px; top: 28px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; left: 13px; top: 12.5px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="width: 48px; height: 48px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 34px; height: 34px">
+              <div style="position: absolute; inset: 0; border: 2px solid #8FB4D6; border-radius: 8px; box-sizing: border-box"></div>
+              <div style="position: absolute; width: 8px; height: 2px; left: 13px; bottom: 0; background: #14181C"></div>
+              <div style="position: absolute; top: 5px; left: 5px; width: 24px; height: 24px; border: 3px solid #8FB4D6; border-radius: 6px; box-sizing: border-box"></div>
+              <div style="position: absolute; width: 5px; height: 3px; left: 14.5px; top: 26px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; left: 12px; top: 11.5px; background: oklch(0.68 0.13 40); border-radius: 999px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="8c" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">8c</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Ring in stone, kernel in blue</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 78px; height: 78px; flex: none">
+            <div style="position: absolute; inset: 0; border: 4px solid #7C7A73; border-radius: 18px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 10px; left: 10px; width: 58px; height: 58px; border: 5px solid #1F4E79; border-radius: 12px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 10px; height: 5px; left: 34px; top: 63px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; left: 28px; top: 29px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 36px; height: 36px">
+            <div style="position: absolute; inset: 0; border: 2px solid #7C7A73; border-radius: 8px; box-sizing: border-box"></div>
+            <div style="position: absolute; top: 5px; left: 5px; width: 26px; height: 26px; border: 3px solid #1F4E79; border-radius: 6px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 5px; height: 3px; left: 15.5px; top: 28px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; left: 13px; top: 12.5px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="width: 48px; height: 48px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 34px; height: 34px">
+              <div style="position: absolute; inset: 0; border: 2px solid #9A988F; border-radius: 8px; box-sizing: border-box"></div>
+              <div style="position: absolute; top: 5px; left: 5px; width: 24px; height: 24px; border: 3px solid #8FB4D6; border-radius: 6px; box-sizing: border-box"></div>
+              <div style="position: absolute; width: 5px; height: 3px; left: 14.5px; top: 26px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; left: 12px; top: 11.5px; background: oklch(0.68 0.13 40); border-radius: 999px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding: 56px 56px 64px; display: grid; gap: 32px; background: #F0EFEA; border-bottom: 1px solid #E5E4DE">
+  <div style="display: grid; gap: 10px; max-width: 78ch">
+    <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600">Turn 7 &middot; 6a trust-boundary colours</div>
+    <h1 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 34px; letter-spacing: -0.02em; margin: 0">Colouring the trust boundary</h1>
+    <p style="margin: 0; font-size: 16.5px; line-height: 1.6; color: #4A4E54">6a held fixed; only the line changes. 7a reads as one system in two parts, 7b claims the line is proved, 7c keeps it structural, 7d separates verified kernel from verified boundary without adding a warm colour.</p>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 20px">
+
+    <div id="7a" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">7a</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Kernel blue &mdash; one system</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 69px; flex: none">
+            <div style="position: absolute; top: 0; left: 0; width: 58px; height: 58px; border: 5px solid #1F4E79; border-radius: 12px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 10px; height: 5px; left: 24px; top: 53px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; left: 18px; top: 19px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+            <div style="position: absolute; width: 50px; height: 5px; left: 4px; bottom: 0; background: #1F4E79"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 32px">
+            <div style="position: absolute; top: 0; left: 0; width: 26px; height: 26px; border: 3px solid #1F4E79; border-radius: 6px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 5px; height: 3px; left: 10.5px; top: 23px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; left: 8px; top: 7.5px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+            <div style="position: absolute; width: 22px; height: 3px; left: 2px; bottom: 0; background: #1F4E79"></div>
+          </div>
+          <div style="width: 44px; height: 44px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 30px">
+              <div style="position: absolute; top: 0; left: 0; width: 24px; height: 24px; border: 3px solid #8FB4D6; border-radius: 6px; box-sizing: border-box"></div>
+              <div style="position: absolute; width: 5px; height: 3px; left: 9.5px; top: 21px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; left: 7px; top: 6.5px; background: oklch(0.68 0.13 40); border-radius: 999px"></div>
+              <div style="position: absolute; width: 20px; height: 3px; left: 2px; bottom: 0; background: #8FB4D6"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="7b" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">7b</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Green &mdash; proved</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 69px; flex: none">
+            <div style="position: absolute; top: 0; left: 0; width: 58px; height: 58px; border: 5px solid #1F4E79; border-radius: 12px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 10px; height: 5px; left: 24px; top: 53px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; left: 18px; top: 19px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+            <div style="position: absolute; width: 50px; height: 5px; left: 4px; bottom: 0; background: oklch(0.48 0.11 150)"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 32px">
+            <div style="position: absolute; top: 0; left: 0; width: 26px; height: 26px; border: 3px solid #1F4E79; border-radius: 6px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 5px; height: 3px; left: 10.5px; top: 23px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; left: 8px; top: 7.5px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+            <div style="position: absolute; width: 22px; height: 3px; left: 2px; bottom: 0; background: oklch(0.48 0.11 150)"></div>
+          </div>
+          <div style="width: 44px; height: 44px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 30px">
+              <div style="position: absolute; top: 0; left: 0; width: 24px; height: 24px; border: 3px solid #8FB4D6; border-radius: 6px; box-sizing: border-box"></div>
+              <div style="position: absolute; width: 5px; height: 3px; left: 9.5px; top: 21px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; left: 7px; top: 6.5px; background: oklch(0.68 0.13 40); border-radius: 999px"></div>
+              <div style="position: absolute; width: 20px; height: 3px; left: 2px; bottom: 0; background: oklch(0.68 0.11 150)"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="7c" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">7c</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Stone &mdash; structural</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 69px; flex: none">
+            <div style="position: absolute; top: 0; left: 0; width: 58px; height: 58px; border: 5px solid #1F4E79; border-radius: 12px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 10px; height: 5px; left: 24px; top: 53px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; left: 18px; top: 19px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+            <div style="position: absolute; width: 50px; height: 5px; left: 4px; bottom: 0; background: #7C7A73"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 32px">
+            <div style="position: absolute; top: 0; left: 0; width: 26px; height: 26px; border: 3px solid #1F4E79; border-radius: 6px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 5px; height: 3px; left: 10.5px; top: 23px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; left: 8px; top: 7.5px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+            <div style="position: absolute; width: 22px; height: 3px; left: 2px; bottom: 0; background: #7C7A73"></div>
+          </div>
+          <div style="width: 44px; height: 44px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 30px">
+              <div style="position: absolute; top: 0; left: 0; width: 24px; height: 24px; border: 3px solid #8FB4D6; border-radius: 6px; box-sizing: border-box"></div>
+              <div style="position: absolute; width: 5px; height: 3px; left: 9.5px; top: 21px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; left: 7px; top: 6.5px; background: oklch(0.68 0.13 40); border-radius: 999px"></div>
+              <div style="position: absolute; width: 20px; height: 3px; left: 2px; bottom: 0; background: #9A988F"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="7d" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">7d</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Teal &mdash; adjacent to the kernel</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 69px; flex: none">
+            <div style="position: absolute; top: 0; left: 0; width: 58px; height: 58px; border: 5px solid #1F4E79; border-radius: 12px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 10px; height: 5px; left: 24px; top: 53px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; left: 18px; top: 19px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+            <div style="position: absolute; width: 50px; height: 5px; left: 4px; bottom: 0; background: oklch(0.48 0.09 205)"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 32px">
+            <div style="position: absolute; top: 0; left: 0; width: 26px; height: 26px; border: 3px solid #1F4E79; border-radius: 6px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 5px; height: 3px; left: 10.5px; top: 23px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; left: 8px; top: 7.5px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+            <div style="position: absolute; width: 22px; height: 3px; left: 2px; bottom: 0; background: oklch(0.48 0.09 205)"></div>
+          </div>
+          <div style="width: 44px; height: 44px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 30px">
+              <div style="position: absolute; top: 0; left: 0; width: 24px; height: 24px; border: 3px solid #8FB4D6; border-radius: 6px; box-sizing: border-box"></div>
+              <div style="position: absolute; width: 5px; height: 3px; left: 9.5px; top: 21px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; left: 7px; top: 6.5px; background: oklch(0.68 0.13 40); border-radius: 999px"></div>
+              <div style="position: absolute; width: 20px; height: 3px; left: 2px; bottom: 0; background: oklch(0.70 0.09 205)"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding: 56px 56px 64px; display: grid; gap: 32px; background: #FBFBF9; border-bottom: 1px solid #E5E4DE">
+  <div style="display: grid; gap: 10px; max-width: 78ch">
+    <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600">Turn 6 &middot; 5a with a trust boundary</div>
+    <h1 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 34px; letter-spacing: -0.02em; margin: 0">Trust boundary below the gate</h1>
+    <p style="margin: 0; font-size: 16.5px; line-height: 1.6; color: #4A4E54">5a's rust core and rounded blue boundary, with a second line beneath the gate in ink &mdash; the trust boundary anything leaving the sandbox has to cross. Three treatments of that line.</p>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 20px">
+
+    <div id="6a" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">6a</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Solid line</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 71px; flex: none">
+            <div style="position: absolute; top: 0; left: 0; width: 58px; height: 58px; border: 5px solid #1F4E79; border-radius: 12px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 10px; height: 5px; left: 24px; top: 53px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; left: 18px; top: 22px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+            <div style="position: absolute; width: 58px; height: 5px; left: 0; bottom: 0; background: #14181C"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 33px">
+            <div style="position: absolute; top: 0; left: 0; width: 26px; height: 26px; border: 3px solid #1F4E79; border-radius: 6px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 5px; height: 3px; left: 10.5px; top: 23px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; left: 8px; top: 9px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+            <div style="position: absolute; width: 26px; height: 3px; left: 0; bottom: 0; background: #14181C"></div>
+          </div>
+          <div style="width: 44px; height: 44px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 31px">
+              <div style="position: absolute; top: 0; left: 0; width: 24px; height: 24px; border: 3px solid #8FB4D6; border-radius: 6px; box-sizing: border-box"></div>
+              <div style="position: absolute; width: 5px; height: 3px; left: 9.5px; top: 21px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; left: 7px; top: 8px; background: oklch(0.68 0.13 40); border-radius: 999px"></div>
+              <div style="position: absolute; width: 24px; height: 3px; left: 0; bottom: 0; background: #FBFBF9"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="6b" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">6b</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Segmented &mdash; permeable</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 71px; flex: none">
+            <div style="position: absolute; top: 0; left: 0; width: 58px; height: 58px; border: 5px solid #1F4E79; border-radius: 12px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 10px; height: 5px; left: 24px; top: 53px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; left: 18px; top: 22px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+            <div style="position: absolute; left: 0; bottom: 0; width: 58px; height: 5px; display: flex; gap: 5px">
+              <div style="flex: 1; background: #14181C"></div>
+              <div style="flex: 1; background: #14181C"></div>
+              <div style="flex: 1; background: #14181C"></div>
+            </div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 33px">
+            <div style="position: absolute; top: 0; left: 0; width: 26px; height: 26px; border: 3px solid #1F4E79; border-radius: 6px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 5px; height: 3px; left: 10.5px; top: 23px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; left: 8px; top: 9px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+            <div style="position: absolute; left: 0; bottom: 0; width: 26px; height: 3px; display: flex; gap: 3px">
+              <div style="flex: 1; background: #14181C"></div>
+              <div style="flex: 1; background: #14181C"></div>
+              <div style="flex: 1; background: #14181C"></div>
+            </div>
+          </div>
+          <div style="width: 44px; height: 44px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 31px">
+              <div style="position: absolute; top: 0; left: 0; width: 24px; height: 24px; border: 3px solid #8FB4D6; border-radius: 6px; box-sizing: border-box"></div>
+              <div style="position: absolute; width: 5px; height: 3px; left: 9.5px; top: 21px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; left: 7px; top: 8px; background: oklch(0.68 0.13 40); border-radius: 999px"></div>
+              <div style="position: absolute; left: 0; bottom: 0; width: 24px; height: 3px; display: flex; gap: 3px">
+                <div style="flex: 1; background: #FBFBF9"></div>
+                <div style="flex: 1; background: #FBFBF9"></div>
+                <div style="flex: 1; background: #FBFBF9"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="6c" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">6c</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Gap aligned to the gate</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 71px; flex: none">
+            <div style="position: absolute; top: 0; left: 0; width: 58px; height: 58px; border: 5px solid #1F4E79; border-radius: 12px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 10px; height: 5px; left: 24px; top: 53px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; left: 18px; top: 22px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+            <div style="position: absolute; width: 24px; height: 5px; left: 0; bottom: 0; background: #14181C"></div>
+            <div style="position: absolute; width: 24px; height: 5px; right: 0; bottom: 0; background: #14181C"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 33px">
+            <div style="position: absolute; top: 0; left: 0; width: 26px; height: 26px; border: 3px solid #1F4E79; border-radius: 6px; box-sizing: border-box"></div>
+            <div style="position: absolute; width: 5px; height: 3px; left: 10.5px; top: 23px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; left: 8px; top: 9px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+            <div style="position: absolute; width: 10.5px; height: 3px; left: 0; bottom: 0; background: #14181C"></div>
+            <div style="position: absolute; width: 10.5px; height: 3px; right: 0; bottom: 0; background: #14181C"></div>
+          </div>
+          <div style="width: 44px; height: 44px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 31px">
+              <div style="position: absolute; top: 0; left: 0; width: 24px; height: 24px; border: 3px solid #8FB4D6; border-radius: 6px; box-sizing: border-box"></div>
+              <div style="position: absolute; width: 5px; height: 3px; left: 9.5px; top: 21px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; left: 7px; top: 8px; background: oklch(0.68 0.13 40); border-radius: 999px"></div>
+              <div style="position: absolute; width: 9.5px; height: 3px; left: 0; bottom: 0; background: #FBFBF9"></div>
+              <div style="position: absolute; width: 9.5px; height: 3px; right: 0; bottom: 0; background: #FBFBF9"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding: 56px 56px 64px; display: grid; gap: 32px; background: #F0EFEA; border-bottom: 1px solid #E5E4DE">
+  <div style="display: grid; gap: 10px; max-width: 78ch">
+    <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600">Turn 5 &middot; variations on 4c</div>
+    <h1 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 34px; letter-spacing: -0.02em; margin: 0">Untrusted core, constrained gate</h1>
+    <p style="margin: 0; font-size: 16.5px; line-height: 1.6; color: #4A4E54">The gate is now narrower than the core: the agent presses against an opening it cannot pass through whole. Four candidate core colours, each at the same chroma and lightness family as the #1F4E79 boundary so the pair stays harmonious.</p>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 20px">
+
+    <div id="5a" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">5a</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Rust &mdash; quiet warning</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 58px; flex: none">
+            <div style="position: absolute; inset: 0; border: 5px solid #1F4E79; border-radius: 12px"></div>
+            <div style="position: absolute; width: 10px; height: 5px; bottom: 0; left: 24px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; bottom: 5px; left: 18px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 26px">
+            <div style="position: absolute; inset: 0; border: 3px solid #1F4E79; border-radius: 6px"></div>
+            <div style="position: absolute; width: 5px; height: 3px; bottom: 0; left: 10.5px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; bottom: 3px; left: 8px; background: oklch(0.50 0.13 40); border-radius: 999px"></div>
+          </div>
+          <div style="width: 40px; height: 40px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 24px">
+              <div style="position: absolute; inset: 0; border: 3px solid #8FB4D6; border-radius: 6px"></div>
+              <div style="position: absolute; width: 5px; height: 3px; bottom: 0; left: 9.5px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; bottom: 3px; left: 7px; background: oklch(0.68 0.13 40); border-radius: 999px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="5b" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">5b</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Ochre &mdash; caution, most visible</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 58px; flex: none">
+            <div style="position: absolute; inset: 0; border: 5px solid #1F4E79; border-radius: 12px"></div>
+            <div style="position: absolute; width: 10px; height: 5px; bottom: 0; left: 24px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; bottom: 5px; left: 18px; background: oklch(0.65 0.13 75); border-radius: 999px"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 26px">
+            <div style="position: absolute; inset: 0; border: 3px solid #1F4E79; border-radius: 6px"></div>
+            <div style="position: absolute; width: 5px; height: 3px; bottom: 0; left: 10.5px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; bottom: 3px; left: 8px; background: oklch(0.65 0.13 75); border-radius: 999px"></div>
+          </div>
+          <div style="width: 40px; height: 40px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 24px">
+              <div style="position: absolute; inset: 0; border: 3px solid #8FB4D6; border-radius: 6px"></div>
+              <div style="position: absolute; width: 5px; height: 3px; bottom: 0; left: 9.5px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; bottom: 3px; left: 7px; background: oklch(0.75 0.13 75); border-radius: 999px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="5c" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">5c</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Brick &mdash; adversarial</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 58px; flex: none">
+            <div style="position: absolute; inset: 0; border: 5px solid #1F4E79; border-radius: 12px"></div>
+            <div style="position: absolute; width: 10px; height: 5px; bottom: 0; left: 24px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; bottom: 5px; left: 18px; background: oklch(0.50 0.15 25); border-radius: 999px"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 26px">
+            <div style="position: absolute; inset: 0; border: 3px solid #1F4E79; border-radius: 6px"></div>
+            <div style="position: absolute; width: 5px; height: 3px; bottom: 0; left: 10.5px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; bottom: 3px; left: 8px; background: oklch(0.50 0.15 25); border-radius: 999px"></div>
+          </div>
+          <div style="width: 40px; height: 40px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 24px">
+              <div style="position: absolute; inset: 0; border: 3px solid #8FB4D6; border-radius: 6px"></div>
+              <div style="position: absolute; width: 5px; height: 3px; bottom: 0; left: 9.5px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; bottom: 3px; left: 7px; background: oklch(0.68 0.15 25); border-radius: 999px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="5d" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">5d</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Neutral grey &mdash; unverified, not hostile</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 58px; flex: none">
+            <div style="position: absolute; inset: 0; border: 5px solid #1F4E79; border-radius: 12px"></div>
+            <div style="position: absolute; width: 10px; height: 5px; bottom: 0; left: 24px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 22px; height: 31px; bottom: 5px; left: 18px; background: oklch(0.62 0.015 260); border-radius: 999px"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 26px">
+            <div style="position: absolute; inset: 0; border: 3px solid #1F4E79; border-radius: 6px"></div>
+            <div style="position: absolute; width: 5px; height: 3px; bottom: 0; left: 10.5px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 10px; height: 14px; bottom: 3px; left: 8px; background: oklch(0.62 0.015 260); border-radius: 999px"></div>
+          </div>
+          <div style="width: 40px; height: 40px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 24px">
+              <div style="position: absolute; inset: 0; border: 3px solid #8FB4D6; border-radius: 6px"></div>
+              <div style="position: absolute; width: 5px; height: 3px; bottom: 0; left: 9.5px; background: #14181C"></div>
+              <div style="position: absolute; width: 10px; height: 13px; bottom: 3px; left: 7px; background: oklch(0.72 0.015 260); border-radius: 999px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding: 56px 56px 64px; display: grid; gap: 32px; background: #FBFBF9; border-bottom: 1px solid #E5E4DE">
+  <div style="display: grid; gap: 10px; max-width: 78ch">
+    <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600">Turn 4 &middot; variations on 3e</div>
+    <h1 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 34px; letter-spacing: -0.02em; margin: 0">Core at the gate &mdash; core shapes</h1>
+    <p style="margin: 0; font-size: 16.5px; line-height: 1.6; color: #4A4E54">Same boundary and same gate position throughout; only the core changes. 4e is the one that reads as motion &mdash; the core pointed at the opening.</p>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 20px">
+
+    <div id="4a" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">4a</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Circle</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 58px; flex: none">
+            <div style="position: absolute; inset: 0; border: 5px solid #1F4E79"></div>
+            <div style="position: absolute; width: 5px; height: 20px; right: 0; top: 19px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 20px; height: 20px; right: 5px; top: 19px; background: #1F4E79; border-radius: 50%"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 26px">
+            <div style="position: absolute; inset: 0; border: 3px solid #1F4E79"></div>
+            <div style="position: absolute; width: 3px; height: 9px; right: 0; top: 8.5px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 9px; height: 9px; right: 3px; top: 8.5px; background: #1F4E79; border-radius: 50%"></div>
+          </div>
+          <div style="width: 40px; height: 40px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 24px">
+              <div style="position: absolute; inset: 0; border: 3px solid #FBFBF9"></div>
+              <div style="position: absolute; width: 3px; height: 8px; right: 0; top: 8px; background: #14181C"></div>
+              <div style="position: absolute; width: 8px; height: 8px; right: 3px; top: 8px; background: #FBFBF9; border-radius: 50%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="4b" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">4b</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Diamond</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 58px; flex: none">
+            <div style="position: absolute; inset: 0; border: 5px solid #1F4E79"></div>
+            <div style="position: absolute; width: 5px; height: 20px; right: 0; top: 19px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 18px; height: 18px; right: 6px; top: 20px; background: #1F4E79; transform: rotate(45deg)"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 26px">
+            <div style="position: absolute; inset: 0; border: 3px solid #1F4E79"></div>
+            <div style="position: absolute; width: 3px; height: 9px; right: 0; top: 8.5px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 8px; height: 8px; right: 3.5px; top: 9px; background: #1F4E79; transform: rotate(45deg)"></div>
+          </div>
+          <div style="width: 40px; height: 40px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 24px">
+              <div style="position: absolute; inset: 0; border: 3px solid #FBFBF9"></div>
+              <div style="position: absolute; width: 3px; height: 8px; right: 0; top: 8px; background: #14181C"></div>
+              <div style="position: absolute; width: 8px; height: 8px; right: 3px; top: 8px; background: #FBFBF9; transform: rotate(45deg)"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="4c" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">4c</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Pill, pointing out</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 58px; flex: none">
+            <div style="position: absolute; inset: 0; border: 5px solid #1F4E79"></div>
+            <div style="position: absolute; width: 5px; height: 16px; right: 0; top: 21px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 26px; height: 16px; right: 5px; top: 21px; background: #1F4E79; border-radius: 999px"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 26px">
+            <div style="position: absolute; inset: 0; border: 3px solid #1F4E79"></div>
+            <div style="position: absolute; width: 3px; height: 8px; right: 0; top: 9px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 12px; height: 8px; right: 3px; top: 9px; background: #1F4E79; border-radius: 999px"></div>
+          </div>
+          <div style="width: 40px; height: 40px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 24px">
+              <div style="position: absolute; inset: 0; border: 3px solid #FBFBF9"></div>
+              <div style="position: absolute; width: 3px; height: 7px; right: 0; top: 8.5px; background: #14181C"></div>
+              <div style="position: absolute; width: 11px; height: 7px; right: 3px; top: 8.5px; background: #FBFBF9; border-radius: 999px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="4d" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">4d</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Bar</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 58px; flex: none">
+            <div style="position: absolute; inset: 0; border: 5px solid #1F4E79"></div>
+            <div style="position: absolute; width: 5px; height: 24px; right: 0; top: 17px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 11px; height: 24px; right: 5px; top: 17px; background: #1F4E79"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 26px">
+            <div style="position: absolute; inset: 0; border: 3px solid #1F4E79"></div>
+            <div style="position: absolute; width: 3px; height: 11px; right: 0; top: 7.5px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 5px; height: 11px; right: 3px; top: 7.5px; background: #1F4E79"></div>
+          </div>
+          <div style="width: 40px; height: 40px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 24px">
+              <div style="position: absolute; inset: 0; border: 3px solid #FBFBF9"></div>
+              <div style="position: absolute; width: 3px; height: 10px; right: 0; top: 7px; background: #14181C"></div>
+              <div style="position: absolute; width: 5px; height: 10px; right: 3px; top: 7px; background: #FBFBF9"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="4e" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">4e</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Triangle, aimed at the gate</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 58px; flex: none">
+            <div style="position: absolute; inset: 0; border: 5px solid #1F4E79"></div>
+            <div style="position: absolute; width: 5px; height: 22px; right: 0; top: 18px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 18px; height: 22px; right: 5px; top: 18px; background: #1F4E79; clip-path: polygon(0 0, 100% 50%, 0 100%)"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 26px">
+            <div style="position: absolute; inset: 0; border: 3px solid #1F4E79"></div>
+            <div style="position: absolute; width: 3px; height: 10px; right: 0; top: 8px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 8px; height: 10px; right: 3px; top: 8px; background: #1F4E79; clip-path: polygon(0 0, 100% 50%, 0 100%)"></div>
+          </div>
+          <div style="width: 40px; height: 40px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 24px">
+              <div style="position: absolute; inset: 0; border: 3px solid #FBFBF9"></div>
+              <div style="position: absolute; width: 3px; height: 10px; right: 0; top: 7px; background: #14181C"></div>
+              <div style="position: absolute; width: 8px; height: 10px; right: 3px; top: 7px; background: #FBFBF9; clip-path: polygon(0 0, 100% 50%, 0 100%)"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="4f" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">4f</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Half-round, flat to the gate</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 58px; flex: none">
+            <div style="position: absolute; inset: 0; border: 5px solid #1F4E79"></div>
+            <div style="position: absolute; width: 5px; height: 22px; right: 0; top: 18px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 13px; height: 22px; right: 5px; top: 18px; background: #1F4E79; border-radius: 999px 0 0 999px"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 26px">
+            <div style="position: absolute; inset: 0; border: 3px solid #1F4E79"></div>
+            <div style="position: absolute; width: 3px; height: 10px; right: 0; top: 8px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 6px; height: 10px; right: 3px; top: 8px; background: #1F4E79; border-radius: 999px 0 0 999px"></div>
+          </div>
+          <div style="width: 40px; height: 40px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 24px">
+              <div style="position: absolute; inset: 0; border: 3px solid #FBFBF9"></div>
+              <div style="position: absolute; width: 3px; height: 10px; right: 0; top: 7px; background: #14181C"></div>
+              <div style="position: absolute; width: 6px; height: 10px; right: 3px; top: 7px; background: #FBFBF9; border-radius: 999px 0 0 999px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding: 56px 56px 64px; display: grid; gap: 32px; background: #F0EFEA; border-bottom: 1px solid #E5E4DE">
+  <div style="display: grid; gap: 10px; max-width: 78ch">
+    <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600">Turn 3 &middot; variations on 2f</div>
+    <h1 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 34px; letter-spacing: -0.02em; margin: 0">Gated-boundary variants</h1>
+    <p style="margin: 0; font-size: 16.5px; line-height: 1.6; color: #4A4E54">The gate is the idea: a boundary that opens under a granted capability. Each variant moves one thing &mdash; the gate's width, its position, how many there are, and how the core relates to it.</p>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 20px">
+
+    <div id="3a" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">3a</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Narrow gate</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 58px; flex: none">
+            <div style="position: absolute; inset: 0; border: 5px solid #1F4E79"></div>
+            <div style="position: absolute; width: 5px; height: 12px; right: 0; top: 23px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 20px; height: 20px; left: 19px; top: 19px; background: #1F4E79"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 26px">
+            <div style="position: absolute; inset: 0; border: 3px solid #1F4E79"></div>
+            <div style="position: absolute; width: 3px; height: 6px; right: 0; top: 10px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 9px; height: 9px; left: 8.5px; top: 8.5px; background: #1F4E79"></div>
+          </div>
+          <div style="width: 40px; height: 40px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 24px">
+              <div style="position: absolute; inset: 0; border: 3px solid #FBFBF9"></div>
+              <div style="position: absolute; width: 3px; height: 6px; right: 0; top: 9px; background: #14181C"></div>
+              <div style="position: absolute; width: 8px; height: 8px; left: 8px; top: 8px; background: #FBFBF9"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="3b" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">3b</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Gate on top</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 58px; flex: none">
+            <div style="position: absolute; inset: 0; border: 5px solid #1F4E79"></div>
+            <div style="position: absolute; height: 5px; width: 20px; top: 0; left: 19px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 20px; height: 20px; left: 19px; top: 19px; background: #1F4E79"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 26px">
+            <div style="position: absolute; inset: 0; border: 3px solid #1F4E79"></div>
+            <div style="position: absolute; height: 3px; width: 9px; top: 0; left: 8.5px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 9px; height: 9px; left: 8.5px; top: 8.5px; background: #1F4E79"></div>
+          </div>
+          <div style="width: 40px; height: 40px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 24px">
+              <div style="position: absolute; inset: 0; border: 3px solid #FBFBF9"></div>
+              <div style="position: absolute; height: 3px; width: 8px; top: 0; left: 8px; background: #14181C"></div>
+              <div style="position: absolute; width: 8px; height: 8px; left: 8px; top: 8px; background: #FBFBF9"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="3c" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">3c</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Two gates &mdash; in and out</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 58px; flex: none">
+            <div style="position: absolute; inset: 0; border: 5px solid #1F4E79"></div>
+            <div style="position: absolute; width: 5px; height: 20px; right: 0; top: 19px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 5px; height: 20px; left: 0; top: 19px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 20px; height: 20px; left: 19px; top: 19px; background: #1F4E79"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 26px">
+            <div style="position: absolute; inset: 0; border: 3px solid #1F4E79"></div>
+            <div style="position: absolute; width: 3px; height: 9px; right: 0; top: 8.5px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 3px; height: 9px; left: 0; top: 8.5px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 9px; height: 9px; left: 8.5px; top: 8.5px; background: #1F4E79"></div>
+          </div>
+          <div style="width: 40px; height: 40px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 24px">
+              <div style="position: absolute; inset: 0; border: 3px solid #FBFBF9"></div>
+              <div style="position: absolute; width: 3px; height: 8px; right: 0; top: 8px; background: #14181C"></div>
+              <div style="position: absolute; width: 3px; height: 8px; left: 0; top: 8px; background: #14181C"></div>
+              <div style="position: absolute; width: 8px; height: 8px; left: 8px; top: 8px; background: #FBFBF9"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="3d" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">3d</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Gate, diamond core</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 58px; flex: none">
+            <div style="position: absolute; inset: 0; border: 5px solid #1F4E79"></div>
+            <div style="position: absolute; width: 5px; height: 18px; right: 0; top: 20px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 18px; height: 18px; left: 20px; top: 20px; background: #1F4E79; transform: rotate(45deg)"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 26px">
+            <div style="position: absolute; inset: 0; border: 3px solid #1F4E79"></div>
+            <div style="position: absolute; width: 3px; height: 8px; right: 0; top: 9px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 8px; height: 8px; left: 9px; top: 9px; background: #1F4E79; transform: rotate(45deg)"></div>
+          </div>
+          <div style="width: 40px; height: 40px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 24px">
+              <div style="position: absolute; inset: 0; border: 3px solid #FBFBF9"></div>
+              <div style="position: absolute; width: 3px; height: 8px; right: 0; top: 8px; background: #14181C"></div>
+              <div style="position: absolute; width: 8px; height: 8px; left: 8px; top: 8px; background: #FBFBF9; transform: rotate(45deg)"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="3e" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">3e</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Core at the gate</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 58px; flex: none">
+            <div style="position: absolute; inset: 0; border: 5px solid #1F4E79"></div>
+            <div style="position: absolute; width: 5px; height: 20px; right: 0; top: 19px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 20px; height: 20px; right: 5px; top: 19px; background: #1F4E79"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 26px">
+            <div style="position: absolute; inset: 0; border: 3px solid #1F4E79"></div>
+            <div style="position: absolute; width: 3px; height: 9px; right: 0; top: 8.5px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 9px; height: 9px; right: 3px; top: 8.5px; background: #1F4E79"></div>
+          </div>
+          <div style="width: 40px; height: 40px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 24px">
+              <div style="position: absolute; inset: 0; border: 3px solid #FBFBF9"></div>
+              <div style="position: absolute; width: 3px; height: 8px; right: 0; top: 8px; background: #14181C"></div>
+              <div style="position: absolute; width: 8px; height: 8px; right: 3px; top: 8px; background: #FBFBF9"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="3f" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">3f</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Thin boundary, wide gate</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 58px; flex: none">
+            <div style="position: absolute; inset: 0; border: 3px solid #1F4E79"></div>
+            <div style="position: absolute; width: 3px; height: 28px; right: 0; top: 15px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 28px; height: 28px; left: 15px; top: 15px; background: #1F4E79"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 26px">
+            <div style="position: absolute; inset: 0; border: 2px solid #1F4E79"></div>
+            <div style="position: absolute; width: 2px; height: 13px; right: 0; top: 6.5px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 13px; height: 13px; left: 6.5px; top: 6.5px; background: #1F4E79"></div>
+          </div>
+          <div style="width: 40px; height: 40px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 24px">
+              <div style="position: absolute; inset: 0; border: 2px solid #FBFBF9"></div>
+              <div style="position: absolute; width: 2px; height: 12px; right: 0; top: 6px; background: #14181C"></div>
+              <div style="position: absolute; width: 12px; height: 12px; left: 6px; top: 6px; background: #FBFBF9"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding: 56px 56px 64px; display: grid; gap: 32px; background: #FBFBF9; border-bottom: 1px solid #E5E4DE">
+  <div style="display: grid; gap: 10px; max-width: 78ch">
+    <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600">Turn 2 &middot; variations on 1a</div>
+    <h1 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 34px; letter-spacing: -0.02em; margin: 0">Nested-square variants</h1>
+    <p style="margin: 0; font-size: 16.5px; line-height: 1.6; color: #4A4E54">Six takes on the containment mark, each holding the same idea and changing one variable: stroke weight, the number of boundaries, the inner form, or where the inner form sits. Small size and reversed tile shown under each.</p>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 20px">
+
+    <div id="2a" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">2a</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Thin boundary, large core</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="width: 56px; height: 56px; border: 3px solid #1F4E79; display: grid; place-items: center; flex: none">
+            <div style="width: 30px; height: 30px; background: #1F4E79"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="width: 24px; height: 24px; border: 2px solid #1F4E79; display: grid; place-items: center"><div style="width: 13px; height: 13px; background: #1F4E79"></div></div>
+          <div style="width: 40px; height: 40px; background: #14181C; display: grid; place-items: center"><div style="width: 22px; height: 22px; border: 2px solid #FBFBF9; display: grid; place-items: center"><div style="width: 11px; height: 11px; background: #FBFBF9"></div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="2b" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">2b</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Two boundaries &mdash; kernel + monitor</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="width: 58px; height: 58px; border: 4px solid #1F4E79; display: grid; place-items: center; flex: none">
+            <div style="width: 34px; height: 34px; border: 3px solid #1F4E79; display: grid; place-items: center">
+              <div style="width: 14px; height: 14px; background: #1F4E79"></div>
+            </div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="width: 26px; height: 26px; border: 2px solid #1F4E79; display: grid; place-items: center"><div style="width: 15px; height: 15px; border: 2px solid #1F4E79; display: grid; place-items: center"><div style="width: 5px; height: 5px; background: #1F4E79"></div></div></div>
+          <div style="width: 40px; height: 40px; background: #14181C; display: grid; place-items: center"><div style="width: 24px; height: 24px; border: 2px solid #FBFBF9; display: grid; place-items: center"><div style="width: 12px; height: 12px; border: 2px solid #FBFBF9"></div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="2c" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">2c</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Diamond core</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="width: 58px; height: 58px; border: 5px solid #1F4E79; display: grid; place-items: center; flex: none">
+            <div style="width: 20px; height: 20px; background: #1F4E79; transform: rotate(45deg)"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="width: 26px; height: 26px; border: 3px solid #1F4E79; display: grid; place-items: center"><div style="width: 9px; height: 9px; background: #1F4E79; transform: rotate(45deg)"></div></div>
+          <div style="width: 40px; height: 40px; background: #14181C; display: grid; place-items: center"><div style="width: 22px; height: 22px; border: 3px solid #FBFBF9; display: grid; place-items: center"><div style="width: 7px; height: 7px; background: #FBFBF9; transform: rotate(45deg)"></div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="2d" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">2d</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Solid tile, knocked-out core</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="width: 58px; height: 58px; background: #1F4E79; display: grid; place-items: center; flex: none">
+            <div style="width: 26px; height: 26px; border: 4px solid #FBFBF9; display: grid; place-items: center">
+              <div style="width: 8px; height: 8px; background: #FBFBF9"></div>
+            </div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="width: 26px; height: 26px; background: #1F4E79; display: grid; place-items: center"><div style="width: 12px; height: 12px; border: 2px solid #FBFBF9"></div></div>
+          <div style="width: 40px; height: 40px; background: #14181C; display: grid; place-items: center"><div style="width: 20px; height: 20px; background: #FBFBF9; display: grid; place-items: center"><div style="width: 8px; height: 8px; background: #14181C"></div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="2e" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">2e</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Core off-centre</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="width: 58px; height: 58px; border: 5px solid #1F4E79; display: grid; place-items: end start; padding: 7px; box-sizing: border-box; flex: none">
+            <div style="width: 18px; height: 18px; background: #1F4E79"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="width: 26px; height: 26px; border: 3px solid #1F4E79; display: grid; place-items: end start; padding: 3px; box-sizing: border-box"><div style="width: 8px; height: 8px; background: #1F4E79"></div></div>
+          <div style="width: 40px; height: 40px; background: #14181C; display: grid; place-items: center"><div style="width: 22px; height: 22px; border: 3px solid #FBFBF9; display: grid; place-items: end start; padding: 2px; box-sizing: border-box"><div style="width: 7px; height: 7px; background: #FBFBF9"></div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="2f" style="flex: 1 1 300px; min-width: 300px; border: 1px solid #E5E4DE; background: #FBFBF9">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 14px 20px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">2f</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Gated boundary</span>
+      </div>
+      <div style="padding: 34px 20px; display: grid; gap: 26px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 16px">
+          <div style="position: relative; width: 58px; height: 58px; flex: none">
+            <div style="position: absolute; inset: 0; border: 5px solid #1F4E79"></div>
+            <div style="position: absolute; width: 5px; height: 20px; right: 0; top: 19px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 20px; height: 20px; left: 19px; top: 19px; background: #1F4E79"></div>
+          </div>
+          <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 24px; letter-spacing: -0.03em">Agentic-seL4</div>
+        </div>
+        <div style="display: flex; gap: 18px; align-items: center">
+          <div style="position: relative; width: 26px; height: 26px">
+            <div style="position: absolute; inset: 0; border: 3px solid #1F4E79"></div>
+            <div style="position: absolute; width: 3px; height: 9px; right: 0; top: 8.5px; background: #FBFBF9"></div>
+            <div style="position: absolute; width: 9px; height: 9px; left: 8.5px; top: 8.5px; background: #1F4E79"></div>
+          </div>
+          <div style="width: 40px; height: 40px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 24px">
+              <div style="position: absolute; inset: 0; border: 3px solid #FBFBF9"></div>
+              <div style="position: absolute; width: 3px; height: 8px; right: 0; top: 8px; background: #14181C"></div>
+              <div style="position: absolute; width: 8px; height: 8px; left: 8px; top: 8px; background: #FBFBF9"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding: 56px 56px 72px; display: grid; gap: 32px">
+  <div style="display: grid; gap: 10px; max-width: 78ch">
+    <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600">Turn 1 &middot; logo directions</div>
+    <h1 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 34px; letter-spacing: -0.02em; margin: 0">Agentic-seL4 marks</h1>
+    <p style="margin: 0; font-size: 16.5px; line-height: 1.6; color: #4A4E54">Three directions, each a geometric mark from the page's accent (#1F4E79) plus the Archivo wordmark. Every mark is drawn from squares, rings and dots only, so it holds at favicon size and reverses cleanly. Reference them as <a href="#1a">1a</a>, <a href="#1b">1b</a>, <a href="#1c">1c</a>.</p>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 28px; align-items: stretch">
+
+    <div id="1a" style="flex: 1 1 380px; min-width: 380px; background: #FBFBF9; border: 1px solid #E5E4DE; display: grid; gap: 0">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 22px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">1a</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Containment &mdash; nested squares</span>
+      </div>
+      <div style="padding: 46px 32px; display: grid; gap: 40px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 18px">
+          <div style="width: 58px; height: 58px; border: 5px solid #1F4E79; display: grid; place-items: center; flex: none">
+            <div style="width: 20px; height: 20px; background: #1F4E79"></div>
+          </div>
+          <div style="display: grid; gap: 2px">
+            <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 27px; letter-spacing: -0.03em; line-height: 1">Agentic-seL4</div>
+            <div style="font-size: 11.5px; letter-spacing: 0.14em; text-transform: uppercase; color: #6B6F75">Capability sandboxing</div>
+          </div>
+        </div>
+        <div style="display: flex; gap: 22px; align-items: center">
+          <div style="width: 26px; height: 26px; border: 3px solid #1F4E79; display: grid; place-items: center"><div style="width: 8px; height: 8px; background: #1F4E79"></div></div>
+          <div style="width: 26px; height: 26px; border: 3px solid #14181C; display: grid; place-items: center"><div style="width: 8px; height: 8px; background: #14181C"></div></div>
+          <div style="width: 44px; height: 44px; background: #14181C; display: grid; place-items: center">
+            <div style="width: 22px; height: 22px; border: 3px solid #FBFBF9; display: grid; place-items: center"><div style="width: 6px; height: 6px; background: #FBFBF9"></div></div>
+          </div>
+        </div>
+      </div>
+      <p style="margin: 0; padding: 0 22px 22px; font-size: 14px; line-height: 1.5; color: #6B6F75">The agent held inside a hard kernel boundary. Reads instantly at 16px and is the most literal about isolation.</p>
+    </div>
+
+    <div id="1b" style="flex: 1 1 380px; min-width: 380px; background: #FBFBF9; border: 1px solid #E5E4DE">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 22px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">1b</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Delegation &mdash; offset capability</span>
+      </div>
+      <div style="padding: 46px 32px; display: grid; gap: 40px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 18px">
+          <div style="position: relative; width: 58px; height: 58px; flex: none">
+            <div style="position: absolute; inset: 0 14px 14px 0; border: 5px solid #1F4E79"></div>
+            <div style="position: absolute; width: 22px; height: 22px; right: 0; bottom: 0; background: #1F4E79"></div>
+          </div>
+          <div style="display: grid; gap: 2px">
+            <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 27px; letter-spacing: -0.03em; line-height: 1">Agentic-seL4</div>
+            <div style="font-size: 11.5px; letter-spacing: 0.14em; text-transform: uppercase; color: #6B6F75">Capability sandboxing</div>
+          </div>
+        </div>
+        <div style="display: flex; gap: 22px; align-items: center">
+          <div style="position: relative; width: 28px; height: 28px">
+            <div style="position: absolute; inset: 0 7px 7px 0; border: 3px solid #1F4E79"></div>
+            <div style="position: absolute; width: 11px; height: 11px; right: 0; bottom: 0; background: #1F4E79"></div>
+          </div>
+          <div style="position: relative; width: 28px; height: 28px">
+            <div style="position: absolute; inset: 0 7px 7px 0; border: 3px solid #14181C"></div>
+            <div style="position: absolute; width: 11px; height: 11px; right: 0; bottom: 0; background: #14181C"></div>
+          </div>
+          <div style="width: 44px; height: 44px; background: #14181C; display: grid; place-items: center">
+            <div style="position: relative; width: 24px; height: 24px">
+              <div style="position: absolute; inset: 0 6px 6px 0; border: 3px solid #FBFBF9"></div>
+              <div style="position: absolute; width: 10px; height: 10px; right: 0; bottom: 0; background: #FBFBF9"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p style="margin: 0; padding: 0 22px 22px; font-size: 14px; line-height: 1.5; color: #6B6F75">A capability handed outside the domain boundary &mdash; the dynamic delegation the project adds. Less obvious, more specific to the research.</p>
+    </div>
+
+    <div id="1c" style="flex: 1 1 380px; min-width: 380px; background: #FBFBF9; border: 1px solid #E5E4DE">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 22px; border-bottom: 1px solid #E5E4DE">
+        <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 13px; color: #1F4E79">1c</span>
+        <span style="font-size: 12.5px; color: #7C7A73">Proof layers &mdash; concentric rings</span>
+      </div>
+      <div style="padding: 46px 32px; display: grid; gap: 40px; justify-items: center">
+        <div style="display: flex; align-items: center; gap: 18px">
+          <div style="width: 58px; height: 58px; border-radius: 50%; border: 4px solid #1F4E79; display: grid; place-items: center; flex: none">
+            <div style="width: 30px; height: 30px; border-radius: 50%; border: 4px solid #1F4E79; display: grid; place-items: center">
+              <div style="width: 8px; height: 8px; border-radius: 50%; background: #1F4E79"></div>
+            </div>
+          </div>
+          <div style="display: grid; gap: 2px">
+            <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 27px; letter-spacing: -0.03em; line-height: 1">Agentic-seL4</div>
+            <div style="font-size: 11.5px; letter-spacing: 0.14em; text-transform: uppercase; color: #6B6F75">Capability sandboxing</div>
+          </div>
+        </div>
+        <div style="display: flex; gap: 22px; align-items: center">
+          <div style="width: 28px; height: 28px; border-radius: 50%; border: 3px solid #1F4E79; display: grid; place-items: center"><div style="width: 8px; height: 8px; border-radius: 50%; background: #1F4E79"></div></div>
+          <div style="width: 28px; height: 28px; border-radius: 50%; border: 3px solid #14181C; display: grid; place-items: center"><div style="width: 8px; height: 8px; border-radius: 50%; background: #14181C"></div></div>
+          <div style="width: 44px; height: 44px; background: #14181C; display: grid; place-items: center">
+            <div style="width: 26px; height: 26px; border-radius: 50%; border: 3px solid #FBFBF9; display: grid; place-items: center"><div style="width: 7px; height: 7px; border-radius: 50%; background: #FBFBF9"></div></div>
+          </div>
+        </div>
+      </div>
+      <p style="margin: 0; padding: 0 22px 22px; font-size: 14px; line-height: 1.5; color: #6B6F75">Kernel, monitor, agent as nested proof layers. Softest of the three; reads well beside university crests.</p>
+    </div>
+  </div>
+
+  <div style="background: #14181C; padding: 40px 42px; display: flex; flex-wrap: wrap; gap: 44px; align-items: center">
+    <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #8FB4D6; font-weight: 600; flex: none">On dark</div>
+    <div style="display: flex; align-items: center; gap: 16px">
+      <div style="width: 44px; height: 44px; border: 4px solid #8FB4D6; display: grid; place-items: center; flex: none"><div style="width: 15px; height: 15px; background: #8FB4D6"></div></div>
+      <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 22px; letter-spacing: -0.03em; color: #FBFBF9">Agentic-seL4</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 16px">
+      <div style="position: relative; width: 44px; height: 44px; flex: none">
+        <div style="position: absolute; inset: 0 11px 11px 0; border: 4px solid #8FB4D6"></div>
+        <div style="position: absolute; width: 17px; height: 17px; right: 0; bottom: 0; background: #8FB4D6"></div>
+      </div>
+      <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 22px; letter-spacing: -0.03em; color: #FBFBF9">Agentic-seL4</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 16px">
+      <div style="width: 44px; height: 44px; border-radius: 50%; border: 3px solid #8FB4D6; display: grid; place-items: center; flex: none">
+        <div style="width: 22px; height: 22px; border-radius: 50%; border: 3px solid #8FB4D6; display: grid; place-items: center"><div style="width: 6px; height: 6px; border-radius: 50%; background: #8FB4D6"></div></div>
+      </div>
+      <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 22px; letter-spacing: -0.03em; color: #FBFBF9">Agentic-seL4</div>
+    </div>
+  </div>
+</section>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1360,&quot;height&quot;:900}}"></script>
+</body>
+</html>
