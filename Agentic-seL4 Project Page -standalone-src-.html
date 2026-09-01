@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="./support.js"></script>
-<meta name="ext-resource-dependency" content="https://sheffield.ac.uk/sites/default/files/styles/profile_square_lg_1x/public/2024-02/Andrei.jpeg?h=24cc8377&amp;itok=qV6hinAy" data-resource-id="popescu" />
+<meta name="ext-resource-dependency" content="uploads/Andrei.jpeg" data-resource-id="popescu" />
 <meta name="ext-resource-dependency" content="uploads/TobyMurray2025-2-600x600.png" data-resource-id="murray" />
 <meta name="ext-resource-dependency" content="uploads/me.jpg" data-resource-id="dongol" />
 <meta name="ext-resource-dependency" content="https://ckaliszyk.github.io/img/cezary_kaliszyk-24.jpg" data-resource-id="kaliszyk" />
-<meta name="ext-resource-dependency" content="https://sheffield.ac.uk/sites/default/files/styles/profile_square_lg_1x/public/2025-07/profile.png?h=ff4e460d&amp;itok=HQv2o4Rr" data-resource-id="valentino" />
-<meta name="ext-resource-dependency" content="https://sheffield.ac.uk/sites/default/files/styles/profile_square_lg_1x/public/2024-08/FoE_Headshots_162.jpg?h=555ba530&amp;itok=QRB34eht" data-resource-id="aletras" />
-<meta name="ext-resource-dependency" content="https://sheffield.ac.uk/sites/default/files/styles/profile_square_lg_1x/public/2023-03/2023-03-08%2013.21.59%20%281%29.jpg?h=534b93c5&amp;itok=weuMshE4" data-resource-id="pasikhani" />
+<meta name="ext-resource-dependency" content="uploads/Marco.png" data-resource-id="valentino" />
+<meta name="ext-resource-dependency" content="uploads/FoE_Headshots_162.jpg" data-resource-id="aletras" />
+<meta name="ext-resource-dependency" content="uploads/2023-03-08 13.21.59 (1).jpg" data-resource-id="pasikhani" />
 <template id="__bundler_thumbnail" data-bg-color="#0b132b">
 <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
 <rect width="1200" height="800" fill="#0b132b"/>
@@ -234,7 +234,7 @@
           <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600; margin-bottom: 14px">Team</div>
           <h2 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 27px; line-height: 1.15; letter-spacing: -0.02em; margin: 0">Investigators</h2>
         </div>
-        <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #4A4E54; max-width: 66ch; align-self: end">Expertise spanning information-flow security, program and security logics, Isabelle/HOL and AI-based proof automation, AI security and natural language processing. Investigators commit substantial FTE and remain active technical contributors throughout.</p>
+        <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #4A4E54; max-width: 66ch; align-self: end">Expertise spanning information-flow security, program and security logics, Isabelle/HOL and AI-based proof automation, AI security and natural language processing. Investigators remain active technical contributors throughout.</p>
       </div>
       <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: #E5E4DE; border: 1px solid #E5E4DE">
         <sc-for list="{{ investigators }}" as="p" hint-placeholder-count="7">
@@ -260,14 +260,16 @@
             </div>
           </article>
         </sc-for>
-        <article style="background: #F4F3EF; padding: 28px 26px; display: grid; gap: 10px; align-content: center">
-          <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; margin-bottom: 6px">
+        <article style="background: #F4F3EF; padding: 28px 26px 26px; display: grid; gap: 16px; align-content: start">
+          <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 14px">
             <img src="uploads/me (1).jpg" alt="Dr Gerwin Klein" style="width: 62px; height: 62px; object-fit: cover; object-position: 50% 20%; border: 1px solid #E1E0D9; display: block" />
             <span style="font-size: 10.5px; letter-spacing: 0.09em; text-transform: uppercase; font-weight: 600; color: #7C7A73; border: 1px solid #E1E0D9; padding: 4px 7px">Collaborator</span>
           </div>
-          <h3 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 18.5px; letter-spacing: -0.012em; margin: 0">Dr Gerwin Klein</h3>
-          <div style="font-size: 14px; color: #6B6F75">Chief Scientist, Proofcraft &middot; Chair, seL4 Foundation TSC</div>
-          <p style="margin: 4px 0 0; font-size: 15px; line-height: 1.55; color: #33383E">Led the team that completed the initial verification of seL4 and has maintained and extended it since. Advises on WP1&ndash;WP3.</p>
+          <div>
+            <h3 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 18.5px; letter-spacing: -0.012em; margin: 0 0 4px">Dr Gerwin Klein</h3>
+            <div style="font-size: 14px; color: #6B6F75">Chief Scientist, Proofcraft &middot; Chair, seL4 Foundation TSC</div>
+          </div>
+          <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #33383E">Led the team that completed the initial verification of seL4 and has maintained and extended it since. Advises on WP1&ndash;WP3.</p>
         </article>
       </div>
     </div>
@@ -280,7 +282,7 @@
           <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #8FB4D6; font-weight: 600; margin-bottom: 14px">Open positions</div>
           <h2 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 27px; line-height: 1.15; letter-spacing: -0.02em; margin: 0; color: #FBFBF9">Nine posts on the project</h2>
         </div>
-        <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #B9BCC0; max-width: 66ch; align-self: end">Seven senior researchers and two research engineers, hosted across Surrey, Sheffield and Melbourne. Each post works directly with investigators at 0.2&ndash;0.4 FTE supervision. Cards fill in with names and profiles as appointments are confirmed.</p>
+        <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #B9BCC0; max-width: 66ch; align-self: end">Seven senior researchers and two research engineers, hosted across Surrey, Sheffield and Melbourne. Cards fill in with names and profiles as appointments are confirmed.</p>
       </div>
       <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px">
         <sc-for list="{{ positions }}" as="pos" hint-placeholder-count="9">
@@ -455,21 +457,21 @@ class Component extends DCLogic {
 
     const R = (typeof window !== "undefined" && window.__resources) || {};
     const photos = {
-      "Prof Andrei Popescu": R.popescu || "https://sheffield.ac.uk/sites/default/files/styles/profile_square_lg_1x/public/2024-02/Andrei.jpeg?h=24cc8377&itok=qV6hinAy",
+      "Prof Andrei Popescu": R.popescu || "uploads/Andrei.jpeg",
       "Prof Toby Murray": R.murray || "uploads/TobyMurray2025-2-600x600.png",
       "Prof Brijesh Dongol": R.dongol || "uploads/me.jpg",
       "Prof Cezary Kaliszyk": R.kaliszyk || "https://ckaliszyk.github.io/img/cezary_kaliszyk-24.jpg",
-      "Dr Marco Valentino": R.valentino || "https://sheffield.ac.uk/sites/default/files/styles/profile_square_lg_1x/public/2025-07/profile.png?h=ff4e460d&itok=HQv2o4Rr",
-      "Prof Nikos Aletras": R.aletras || "https://sheffield.ac.uk/sites/default/files/styles/profile_square_lg_1x/public/2024-08/FoE_Headshots_162.jpg?h=555ba530&itok=QRB34eht",
-      "Dr Aryan Pasikhani": R.pasikhani || "https://sheffield.ac.uk/sites/default/files/styles/profile_square_lg_1x/public/2023-03/2023-03-08%2013.21.59%20%281%29.jpg?h=534b93c5&itok=weuMshE4"
+      "Dr Marco Valentino": R.valentino || "uploads/Marco.png",
+      "Prof Nikos Aletras": R.aletras || "uploads/FoE_Headshots_162.jpg",
+      "Dr Aryan Pasikhani": R.pasikhani || "uploads/2023-03-08 13.21.59 (1).jpg"
     };
     const investigators = [
-      { name: "Prof Brijesh Dongol", affiliation: "University of Surrey", role: "PI \u00b7 Project lead", wps: ["Leads WP2", "Co-leads WP3", "0.3 FTE"], bio: "Co-Director of VeTSS. Expert in formal methods for concurrent and distributed systems, program logics, memory models and security. Distinguished artefact award, ESOP 2022." },
-      { name: "Prof Andrei Popescu", affiliation: "University of Sheffield", role: "PI", wps: ["Leads WP4", "Co-leads WP3", "0.4 FTE"], bio: "Compositional mechanisms for information-flow security in Isabelle. Three POPL Distinguished Paper Awards; 27 AFP entries; co-developer of the verified CoCon conference system." },
-      { name: "Prof Toby Murray", affiliation: "University of Melbourne", role: "PI", wps: ["Leads WP1", "Co-leads WP3", "0.3 FTE"], bio: "Director of the Defence Science Institute. Led the seL4 information-flow security proofs at NICTA. 2021 Eureka Prize; 2022 ACM Software System Award." },
-      { name: "Prof Cezary Kaliszyk", affiliation: "University of Melbourne", role: "Co-I", wps: ["WP4", "0.2 FTE"], bio: "Automated theorem proving, formalised mathematics and learning for reasoning. ERC starting grant holder; machine-learning guidance for state-of-the-art provers." },
-      { name: "Dr Marco Valentino", affiliation: "University of Sheffield", role: "Co-I", wps: ["WP2", "WP4", "0.3 FTE"], bio: "AI systems for learning and reasoning in complex domains, and practical Isabelle deployments in neurosymbolic settings. EMNLP 2025 Best Resource Paper; EMNLP 2024 Outstanding Paper." },
-      { name: "Prof Nikos Aletras", affiliation: "University of Sheffield", role: "Co-I", wps: ["WP2", "WP4", "0.2 FTE"], bio: "Leads Sheffield's NLP group. Expert on large language models with recent breakthroughs in neurosymbolic reasoning. Advises on LLM development." },
+      { name: "Prof Brijesh Dongol", affiliation: "University of Surrey", role: "PI \u00b7 Project lead", wps: ["Leads WP2", "Co-leads WP3"], bio: "Co-Director of VeTSS. Expert in formal methods for concurrent and distributed systems, program logics, memory models and security. Distinguished artefact award, ESOP 2022." },
+      { name: "Prof Andrei Popescu", affiliation: "University of Sheffield", role: "PI", wps: ["Leads WP4", "Co-leads WP3"], bio: "Compositional mechanisms for information-flow security in Isabelle. Three POPL Distinguished Paper Awards; 27 AFP entries; co-developer of the verified CoCon conference system." },
+      { name: "Prof Toby Murray", affiliation: "University of Melbourne", role: "PI", wps: ["Leads WP1", "Co-leads WP3"], bio: "Director of the Defence Science Institute. Led the seL4 information-flow security proofs at NICTA. 2021 Eureka Prize; 2022 ACM Software System Award." },
+      { name: "Prof Cezary Kaliszyk", affiliation: "University of Melbourne", role: "Co-I", wps: ["WP4"], bio: "Automated theorem proving, formalised mathematics and learning for reasoning. ERC starting grant holder; machine-learning guidance for state-of-the-art provers." },
+      { name: "Dr Marco Valentino", affiliation: "University of Sheffield", role: "Co-I", wps: ["WP2", "WP4"], bio: "AI systems for learning and reasoning in complex domains, and practical Isabelle deployments in neurosymbolic settings. EMNLP 2025 Best Resource Paper; EMNLP 2024 Outstanding Paper." },
+      { name: "Prof Nikos Aletras", affiliation: "University of Sheffield", role: "Co-I", wps: ["WP2", "WP4"], bio: "Leads Sheffield's NLP group. Expert on large language models with recent breakthroughs in neurosymbolic reasoning. Advises on LLM development." },
       { name: "Dr Aryan Pasikhani", affiliation: "University of Sheffield", role: "Co-I \u00b7 Purple Team", wps: ["WP2", "Red Team liaison"], bio: "AI security, offensive AI and adversarial machine learning. Founder of CybPass, a Sheffield spin-out providing security testing for AI systems." }
     ];
 
