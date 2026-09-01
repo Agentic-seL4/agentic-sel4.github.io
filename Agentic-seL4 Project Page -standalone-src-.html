@@ -11,6 +11,11 @@
 <meta name="ext-resource-dependency" content="uploads/Marco.png" data-resource-id="valentino" />
 <meta name="ext-resource-dependency" content="uploads/FoE_Headshots_162.jpg" data-resource-id="aletras" />
 <meta name="ext-resource-dependency" content="uploads/2023-03-08 13.21.59 (1).jpg" data-resource-id="pasikhani" />
+<meta name="ext-resource-dependency" content="uploads/me (1).jpg" data-resource-id="klein" />
+<meta name="ext-resource-dependency" content="uploads/Surrey.png" data-resource-id="surrey" />
+<meta name="ext-resource-dependency" content="uploads/Sheffield.png" data-resource-id="sheffield" />
+<meta name="ext-resource-dependency" content="uploads/Melbourne.png" data-resource-id="melbourne" />
+<meta name="ext-resource-dependency" content="uploads/Proofcraft.png" data-resource-id="proofcraft" />
 <template id="__bundler_thumbnail" data-bg-color="#0b132b">
 <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
 <rect width="1200" height="800" fill="#0b132b"/>
@@ -121,7 +126,7 @@
     <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: #E5E4DE; border: 1px solid #E5E4DE; margin-top: 8px">
       <div style="background: #FBFBF9; padding: 22px 24px">
         <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #7C7A73; margin-bottom: 10px">Institutions</div>
-        <div style="font-size: 15.5px; font-weight: 500">Surrey (lead) &middot; Sheffield &middot; Melbourne</div>
+        <div style="font-size: 15.5px; font-weight: 500">Surrey &middot; Sheffield &middot; Melbourne</div>
       </div>
       <div style="background: #FBFBF9; padding: 22px 24px">
         <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #7C7A73; margin-bottom: 10px">Collaborator</div>
@@ -240,9 +245,9 @@
         <sc-for list="{{ investigators }}" as="p" hint-placeholder-count="7">
           <article style="background: #FBFBF9; padding: 28px 26px 26px; display: grid; gap: 16px; align-content: start">
             <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 14px">
-              <sc-if value="{{ p.hasPhoto }}" hint-placeholder-val="{{ false }}">
-                <img src="{{ p.photo }}" alt="{{ p.name }}" style="width: 62px; height: 62px; object-fit: cover; border: 1px solid #E1E0D9; display: block" />
-              </sc-if>
+              <sc-for list="{{ p.photoList }}" as="src" hint-placeholder-count="0">
+                <img src="{{ src }}" alt="" style="width: 62px; height: 62px; object-fit: cover; border: 1px solid #E1E0D9; display: block" />
+              </sc-for>
               <sc-if value="{{ p.noPhoto }}" hint-placeholder-val="{{ true }}">
                 <div style="width: 62px; height: 62px; background: repeating-linear-gradient(135deg, #EDECE6 0 6px, #F6F5F1 6px 12px); border: 1px solid #E1E0D9"></div>
               </sc-if>
@@ -252,7 +257,6 @@
               <h3 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 18.5px; letter-spacing: -0.012em; margin: 0 0 4px">{{ p.name }}</h3>
               <div style="font-size: 14px; color: #6B6F75">{{ p.affiliation }}</div>
             </div>
-            <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #33383E">{{ p.bio }}</p>
             <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px">
               <sc-for list="{{ p.wps }}" as="w" hint-placeholder-count="2">
                 <span style="font-size: 11.5px; font-weight: 500; color: #4A4E54; border: 1px solid #E1E0D9; padding: 3px 7px">{{ w }}</span>
@@ -269,7 +273,6 @@
             <h3 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 18.5px; letter-spacing: -0.012em; margin: 0 0 4px">Dr Gerwin Klein</h3>
             <div style="font-size: 14px; color: #6B6F75">Chief Scientist, Proofcraft &middot; Chair, seL4 Foundation TSC</div>
           </div>
-          <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #33383E">Led the team that completed the initial verification of seL4 and has maintained and extended it since. Advises on WP1&ndash;WP3.</p>
         </article>
       </div>
     </div>
@@ -325,7 +328,12 @@
       <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1px; background: #E5E4DE; border: 1px solid #E5E4DE; margin-bottom: 34px">
         <sc-for list="{{ partners }}" as="org" hint-placeholder-count="4">
           <div style="background: #FBFBF9; padding: 26px 20px; display: grid; gap: 14px; justify-items: center; text-align: center">
-            <div style="width: 100%; height: 54px; background: repeating-linear-gradient(90deg, #EDECE6 0 5px, #F7F6F2 5px 10px); border: 1px solid #E1E0D9; display: grid; place-items: center; font-family: ui-monospace, Menlo, monospace; font-size: 10.5px; color: #8A8880; letter-spacing: 0.04em">logo</div>
+            <sc-for list="{{ org.logoList }}" as="src" hint-placeholder-count="0">
+              <img src="{{ src }}" alt="" style="width: 100%; height: 54px; object-fit: contain; object-position: center; display: block" />
+            </sc-for>
+            <sc-if value="{{ org.noLogo }}" hint-placeholder-val="{{ true }}">
+              <div style="width: 100%; height: 54px; background: repeating-linear-gradient(90deg, #EDECE6 0 5px, #F7F6F2 5px 10px); border: 1px solid #E1E0D9; display: grid; place-items: center; font-family: ui-monospace, Menlo, monospace; font-size: 10.5px; color: #8A8880; letter-spacing: 0.04em">logo</div>
+            </sc-if>
             <div>
               <div style="font-size: 14.5px; font-weight: 600">{{ org.name }}</div>
               <div style="font-size: 12.5px; color: #7C7A73; margin-top: 3px">{{ org.role }}</div>
@@ -376,7 +384,7 @@
           <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #7C7A73">Project lead</div>
           <div style="font-size: 16px; font-weight: 600">Prof Brijesh Dongol</div>
           <div style="font-size: 14.5px; color: #4A4E54">University of Surrey</div>
-          <a href="#contact" style="font-size: 14.5px">email address &rarr;</a>
+          <a href="mailto:b.dongol@surrey.ac.uk" style="font-size: 14.5px; overflow-wrap: anywhere">b.dongol@surrey.ac.uk</a>
         </div>
         <div style="background: #FBFBF9; padding: 26px 24px; display: grid; gap: 8px; align-content: start">
           <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #7C7A73">Code &amp; proofs</div>
@@ -455,15 +463,14 @@ class Component extends DCLogic {
       }
     ];
 
-    const R = (typeof window !== "undefined" && window.__resources) || {};
     const photos = {
-      "Prof Andrei Popescu": R.popescu || "uploads/Andrei.jpeg",
-      "Prof Toby Murray": R.murray || "uploads/TobyMurray2025-2-600x600.png",
-      "Prof Brijesh Dongol": R.dongol || "uploads/me.jpg",
-      "Prof Cezary Kaliszyk": R.kaliszyk || "https://ckaliszyk.github.io/img/cezary_kaliszyk-24.jpg",
-      "Dr Marco Valentino": R.valentino || "uploads/Marco.png",
-      "Prof Nikos Aletras": R.aletras || "uploads/FoE_Headshots_162.jpg",
-      "Dr Aryan Pasikhani": R.pasikhani || "uploads/2023-03-08 13.21.59 (1).jpg"
+      "Prof Andrei Popescu": "uploads/Andrei.jpeg",
+      "Prof Toby Murray": "uploads/TobyMurray2025-2-600x600.png",
+      "Prof Brijesh Dongol": "uploads/me.jpg",
+      "Prof Cezary Kaliszyk": "https://ckaliszyk.github.io/img/cezary_kaliszyk-24.jpg",
+      "Dr Marco Valentino": "uploads/Marco.png",
+      "Prof Nikos Aletras": "uploads/FoE_Headshots_162.jpg",
+      "Dr Aryan Pasikhani": "uploads/2023-03-08 13.21.59 (1).jpg"
     };
     const investigators = [
       { name: "Prof Brijesh Dongol", affiliation: "University of Surrey", role: "PI \u00b7 Project lead", wps: ["Leads WP2", "Co-leads WP3"], bio: "Co-Director of VeTSS. Expert in formal methods for concurrent and distributed systems, program logics, memory models and security. Distinguished artefact award, ESOP 2022." },
@@ -491,15 +498,15 @@ class Component extends DCLogic {
 
     return {
       workPackages,
-      investigators: investigators.map(p => ({ ...p, photo: photos[p.name], hasPhoto: !!photos[p.name], noPhoto: !photos[p.name] })),
+      investigators: investigators.map(p => ({ ...p, photoList: photos[p.name] ? [photos[p.name]] : [], noPhoto: !photos[p.name] })),
       positions: showPositions ? allPositions.slice(0, positionCount) : [],
       showPositions,
       partners: [
-        { name: "University of Surrey", role: "Lead institution" },
-        { name: "University of Sheffield", role: "Partner" },
-        { name: "University of Melbourne", role: "Partner" },
-        { name: "Proofcraft", role: "Collaborator" }
-      ],
+        { name: "University of Surrey", role: "Lead institution", logo: "uploads/Surrey.png" },
+        { name: "University of Sheffield", role: "Partner", logo: "uploads/Sheffield.png" },
+        { name: "University of Melbourne", role: "Partner", logo: "uploads/Melbourne.png" },
+        { name: "Proofcraft", role: "Collaborator", logo: "uploads/Proofcraft.png" }
+      ].map(o => ({ ...o, logoList: o.logo ? [o.logo] : [], noLogo: !o.logo })),
       outputStreams: [
         { title: "Publications", blurb: "Papers and preprints on capability models, dynamic information-flow security and neural theorem proving.", emptyLabel: "No publications yet \u2014 first submissions expected from sprint 2.", link: "Preprint list \u2192", slots: emptyRows },
         { title: "Software & proof artefacts", blurb: "The runtime stack, seL4-aware tool wrappers, Isabelle theories and AFP entries. Open source.", emptyLabel: "No releases yet \u2014 repositories open with the first sprint.", link: "Repositories \u2192", slots: emptyRows },
