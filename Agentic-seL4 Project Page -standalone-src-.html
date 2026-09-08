@@ -45,7 +45,7 @@
 <div style="max-width: 100%; overflow-x: hidden">
 
   <header style="position: sticky; top: 0; z-index: 20; background: rgba(251,251,249,0.94); backdrop-filter: blur(8px); border-bottom: 1px solid #E5E4DE">
-    <div style="max-width: 1160px; margin: 0 auto; padding: 0 40px; height: 66px; display: flex; align-items: center; justify-content: space-between; gap: 32px">
+    <div style="max-width: 1160px; margin: 0 auto; padding: 10px clamp(18px, 5vw, 40px); min-height: 66px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 28px">
       <a href="#top" style="display: flex; align-items: center; gap: 11px; color: #14181C; text-decoration: none">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="width: 34px; height: 34px; flex: none; display: block">
           <rect width="128" height="128" rx="24" fill="#0b132b"></rect>
@@ -76,7 +76,7 @@
         <span style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 17px; letter-spacing: -0.01em">Agentic-seL4</span>
         <span style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #7C7A73">Project</span>
       </a>
-      <nav style="display: flex; gap: 26px; font-size: 13.5px; font-weight: 500; color: #4A4E54">
+      <nav style="display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: 13.5px; font-weight: 500; color: #4A4E54">
         <a href="#overview" style="color: inherit">Overview</a>
         <a href="#work" style="color: inherit">Work packages</a>
         <a href="#outputs" style="color: inherit">Outputs</a>
@@ -88,13 +88,13 @@
     </div>
   </header>
 
-  <section id="top" style="max-width: 1160px; margin: 0 auto; padding: 92px 40px 72px">
-    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 34px">
+  <section id="top" style="max-width: 1160px; margin: 0 auto; padding: clamp(48px, 9vw, 92px) clamp(18px, 5vw, 40px) 72px">
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; margin-bottom: clamp(24px, 4vw, 34px)">
       <span style="display: inline-flex; align-items: center; gap: 8px; border: 1px solid #1F4E79; color: #1F4E79; border-radius: 2px; padding: 5px 10px; font-size: 11.5px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase">Project underway</span>
       <span style="font-size: 13px; color: #7C7A73">Started 2026</span>
     </div>
-    <div style="display: flex; align-items: center; gap: 48px; margin: 0 0 28px">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="width: 132px; height: 132px; flex: none; display: block; order: -1">
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 20px clamp(24px, 4vw, 48px); margin: 0 0 28px">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="width: clamp(78px, 17vw, 132px); height: clamp(78px, 17vw, 132px); flex: none; display: block; order: -1">
         <rect width="128" height="128" rx="24" fill="#0b132b"></rect>
         <g transform="translate(64, 64)">
           <circle cx="0" cy="0" r="46" fill="none" stroke="#ffffff" stroke-width="4.5"></circle>
@@ -120,10 +120,10 @@
           </g>
         </g>
       </svg>
-      <h1 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 60px; line-height: 1.04; letter-spacing: -0.028em; margin: 0; max-width: 20ch; text-wrap: pretty; flex: 1 1 auto">Provably secure sandboxing of AI agents</h1>
+      <h1 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: clamp(34px, 7.2vw, 60px); line-height: 1.06; letter-spacing: -0.028em; margin: 0; max-width: 20ch; text-wrap: pretty; flex: 1 1 320px; min-width: 0">Provably secure sandboxing of AI agents</h1>
     </div>
-    <p style="font-size: 21px; line-height: 1.5; max-width: 62ch; margin: 0 0 40px; color: #33383E; text-wrap: pretty">Agentic-seL4 builds a capability-based sandbox for AI agents on top of the formally verified seL4 microkernel, and proves the security properties that follow &mdash; using AI-assisted theorem proving to do it at scale.</p>
-    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: #E5E4DE; border: 1px solid #E5E4DE; margin-top: 8px">
+    <p style="font-size: clamp(17px, 2.4vw, 21px); line-height: 1.55; max-width: 62ch; margin: 0 0 40px; color: #33383E; text-wrap: pretty">Agentic-seL4 builds a capability-based sandbox for AI agents on top of the formally verified seL4 microkernel, and proves the security properties that follow &mdash; using AI-assisted theorem proving to do it at scale.</p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 190px), 1fr)); gap: 1px; background: #E5E4DE; border: 1px solid #E5E4DE; margin-top: 8px">
       <div style="background: #FBFBF9; padding: 22px 24px">
         <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #7C7A73; margin-bottom: 10px">Institutions</div>
         <div style="font-size: 15.5px; font-weight: 500">Surrey &middot; Sheffield &middot; Melbourne</div>
@@ -140,12 +140,12 @@
   </section>
 
   <section id="overview" style="border-top: 1px solid #E5E4DE; background: #F4F3EF">
-    <div style="max-width: 1160px; margin: 0 auto; padding: 76px 40px 80px; display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 56px">
-      <div>
+    <div style="max-width: 1160px; margin: 0 auto; padding: clamp(48px, 9vw, 76px) clamp(18px, 5vw, 40px) clamp(52px, 8vw, 80px); display: flex; flex-wrap: wrap; align-items: flex-start; gap: 28px clamp(32px, 4vw, 56px)">
+      <div style="flex: 0 1 260px; min-width: 0">
         <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600; margin-bottom: 14px">Overview</div>
         <h2 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 27px; line-height: 1.15; letter-spacing: -0.02em; margin: 0; text-wrap: pretty">Why sandbox an agent at the kernel?</h2>
       </div>
-      <div>
+      <div style="flex: 1 1 430px; min-width: 0">
         <div style="display: grid; gap: 20px; font-size: 17.5px; line-height: 1.62; color: #2B3036; max-width: 68ch">
           <p style="margin: 0">Agentic AI is being used for optimisation, self-healing and automated decision making in exactly the sectors that depend on strong isolation. But an agent is stochastic and prompt-driven rather than a fixed program. Even during normal operation it may leak sensitive data, misconfigure systems, escalate its own privileges, or introduce subtle vulnerabilities in response to benign instructions. Under attack it amplifies the adversary: following malicious prompts, chaining tools, exfiltrating data across trust boundaries, and weakening defences faster and more persistently than a human operator.</p>
           <p style="margin: 0">Today's containment is empirical. Linux primitives, containers and VM-based sandboxes all fail through incomplete enforcement, misconfiguration, flawed policies and buggy runtimes &mdash; and benchmarks that measure escape are, by construction, post hoc. They cannot deliver machine-checked isolation guarantees.</p>
@@ -166,17 +166,17 @@
   </section>
 
   <section id="work" style="border-top: 1px solid #E5E4DE">
-    <div style="max-width: 1160px; margin: 0 auto; padding: 76px 40px 84px">
-      <div style="display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 56px; margin-bottom: 48px">
-        <div>
+    <div style="max-width: 1160px; margin: 0 auto; padding: clamp(48px, 9vw, 76px) clamp(18px, 5vw, 40px) clamp(52px, 8vw, 84px)">
+      <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 28px clamp(32px, 4vw, 56px); margin-bottom: 48px">
+        <div style="flex: 0 1 260px; min-width: 0">
           <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600; margin-bottom: 14px">Work packages</div>
           <h2 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 27px; line-height: 1.15; letter-spacing: -0.02em; margin: 0">Four objectives, two strands</h2>
         </div>
-        <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #4A4E54; max-width: 66ch; align-self: end">WP3 is a project-long proof strand. WP1, WP2 and WP4 run as sprints, feeding requirements and automation back into it. WP2 carries two parallel implementations &mdash; a Linux reference design from sprint 2, with the seL4 implementation expected at sprint 5 &mdash; both stress-tested with the Red Team.</p>
+        <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #4A4E54; max-width: 66ch; flex: 1 1 430px; align-self: end">WP3 is a project-long proof strand. WP1, WP2 and WP4 run as sprints, feeding requirements and automation back into it. WP2 carries two parallel implementations &mdash; a Linux reference design from sprint 2, with the seL4 implementation expected at sprint 5 &mdash; both stress-tested with the Red Team.</p>
       </div>
       <div style="display: grid; gap: 1px; background: #E5E4DE; border-top: 1px solid #E5E4DE; border-bottom: 1px solid #E5E4DE">
         <sc-for list="{{ workPackages }}" as="wp" hint-placeholder-count="4">
-          <article style="background: #FBFBF9; display: grid; grid-template-columns: 120px minmax(0, 1fr) 300px; gap: 40px; padding: 34px 4px">
+          <article style="background: #FBFBF9; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 20px clamp(24px, 3vw, 40px); padding: 30px 4px">
             <div>
               <div style="font-family: Archivo, Helvetica, sans-serif; font-weight: 700; font-size: 22px; color: #1F4E79; letter-spacing: -0.01em">{{ wp.id }}</div>
               <div style="font-size: 12px; color: #7C7A73; margin-top: 6px; letter-spacing: 0.04em">{{ wp.objective }}</div>
@@ -201,15 +201,15 @@
   </section>
 
   <section id="outputs" style="border-top: 1px solid #E5E4DE; background: #F4F3EF">
-    <div style="max-width: 1160px; margin: 0 auto; padding: 76px 40px 84px">
-      <div style="display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 56px; margin-bottom: 44px">
-        <div>
+    <div style="max-width: 1160px; margin: 0 auto; padding: clamp(48px, 9vw, 76px) clamp(18px, 5vw, 40px) clamp(52px, 8vw, 84px)">
+      <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 28px clamp(32px, 4vw, 56px); margin-bottom: 44px">
+        <div style="flex: 0 1 260px; min-width: 0">
           <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600; margin-bottom: 14px">Outputs</div>
           <h2 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 27px; line-height: 1.15; letter-spacing: -0.02em; margin: 0">Publications, artefacts, talks</h2>
         </div>
-        <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #4A4E54; max-width: 66ch; align-self: end">Everything the project produces is published here as it lands. Proof artefacts and code are open source; papers are posted as preprints on acceptance.</p>
+        <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #4A4E54; max-width: 66ch; flex: 1 1 430px; align-self: end">Everything the project produces is published here as it lands. Proof artefacts and code are open source; papers are posted as preprints on acceptance.</p>
       </div>
-      <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr)); gap: 24px">
         <sc-for list="{{ outputStreams }}" as="s" hint-placeholder-count="3">
           <div style="background: #FBFBF9; border: 1px solid #E5E4DE; padding: 28px 26px 26px; display: grid; gap: 18px; align-content: start">
             <div>
@@ -233,15 +233,15 @@
   </section>
 
   <section id="team" style="border-top: 1px solid #E5E4DE">
-    <div style="max-width: 1160px; margin: 0 auto; padding: 76px 40px 40px">
-      <div style="display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 56px; margin-bottom: 48px">
-        <div>
+    <div style="max-width: 1160px; margin: 0 auto; padding: clamp(48px, 9vw, 76px) clamp(18px, 5vw, 40px) 40px">
+      <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 28px clamp(32px, 4vw, 56px); margin-bottom: 48px">
+        <div style="flex: 0 1 260px; min-width: 0">
           <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600; margin-bottom: 14px">Team</div>
           <h2 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 27px; line-height: 1.15; letter-spacing: -0.02em; margin: 0">Investigators</h2>
         </div>
-        <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #4A4E54; max-width: 66ch; align-self: end">Expertise spanning information-flow security, program and security logics, Isabelle/HOL and AI-based proof automation, AI security and natural language processing. Investigators remain active technical contributors throughout.</p>
+        <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #4A4E54; max-width: 66ch; flex: 1 1 430px; align-self: end">Expertise spanning information-flow security, program and security logics, Isabelle/HOL and AI-based proof automation, AI security and natural language processing. Investigators remain active technical contributors throughout.</p>
       </div>
-      <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: #E5E4DE; border: 1px solid #E5E4DE">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 1px; background: #E5E4DE; border: 1px solid #E5E4DE">
         <sc-for list="{{ investigators }}" as="p" hint-placeholder-count="7">
           <article style="background: #FBFBF9; padding: 28px 26px 26px; display: grid; gap: 16px; align-content: start">
             <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 14px">
@@ -279,15 +279,15 @@
   </section>
 
   <section id="positions" style="background: #14181C; color: #F4F3EF; border-top: 1px solid #E5E4DE">
-    <div style="max-width: 1160px; margin: 0 auto; padding: 76px 40px 84px">
-      <div style="display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 56px; margin-bottom: 44px">
-        <div>
+    <div style="max-width: 1160px; margin: 0 auto; padding: clamp(48px, 9vw, 76px) clamp(18px, 5vw, 40px) clamp(52px, 8vw, 84px)">
+      <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 28px clamp(32px, 4vw, 56px); margin-bottom: 44px">
+        <div style="flex: 0 1 260px; min-width: 0">
           <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #8FB4D6; font-weight: 600; margin-bottom: 14px">Open positions</div>
           <h2 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 27px; line-height: 1.15; letter-spacing: -0.02em; margin: 0; color: #FBFBF9">Nine posts on the project</h2>
         </div>
-        <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #B9BCC0; max-width: 66ch; align-self: end">Seven senior researchers and two research engineers, hosted across Surrey, Sheffield and Melbourne. Cards fill in with names and profiles as appointments are confirmed.</p>
+        <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #B9BCC0; max-width: 66ch; flex: 1 1 430px; align-self: end">Seven senior researchers and two research engineers, hosted across Surrey, Sheffield and Melbourne. Cards fill in with names and profiles as appointments are confirmed.</p>
       </div>
-      <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr)); gap: 18px">
         <sc-for list="{{ positions }}" as="pos" hint-placeholder-count="9">
           <article style="border: 1px solid #2C3237; background: #191E23; padding: 24px 22px; display: grid; gap: 14px; align-content: start" style-hover="border-color: #40525F">
             <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px">
@@ -317,15 +317,15 @@
   </section>
 
   <section id="partners" style="border-top: 1px solid #E5E4DE">
-    <div style="max-width: 1160px; margin: 0 auto; padding: 72px 40px 76px">
-      <div style="display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 56px; margin-bottom: 40px">
-        <div>
+    <div style="max-width: 1160px; margin: 0 auto; padding: clamp(48px, 9vw, 72px) clamp(18px, 5vw, 40px) clamp(52px, 8vw, 76px)">
+      <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 28px clamp(32px, 4vw, 56px); margin-bottom: 40px">
+        <div style="flex: 0 1 260px; min-width: 0">
           <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600; margin-bottom: 14px">Partners</div>
           <h2 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 27px; line-height: 1.15; letter-spacing: -0.02em; margin: 0">Stakeholders</h2>
         </div>
-        <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #4A4E54; max-width: 66ch; align-self: end">Proofcraft and the seL4 Foundation follow the project directly; the Red Team stress-tests each runtime release. Findings feed back into the runtime monitor, the threat model and the formal capability models.</p>
+        <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #4A4E54; max-width: 66ch; flex: 1 1 430px; align-self: end">Proofcraft and the seL4 Foundation follow the project directly; the Red Team stress-tests each runtime release. Findings feed back into the runtime monitor, the threat model and the formal capability models.</p>
       </div>
-      <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1px; background: #E5E4DE; border: 1px solid #E5E4DE; margin-bottom: 34px">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr)); gap: 1px; background: #E5E4DE; border: 1px solid #E5E4DE; margin-bottom: 34px">
         <sc-for list="{{ partners }}" as="org" hint-placeholder-count="4">
           <div style="background: #FBFBF9; padding: 26px 20px; display: grid; gap: 14px; justify-items: center; text-align: center">
             <sc-for list="{{ org.logoList }}" as="src" hint-placeholder-count="0">
@@ -349,17 +349,17 @@
   </section>
 
   <section id="updates" style="border-top: 1px solid #E5E4DE; background: #F4F3EF">
-    <div style="max-width: 1160px; margin: 0 auto; padding: 76px 40px 84px">
-      <div style="display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 56px; margin-bottom: 40px">
-        <div>
+    <div style="max-width: 1160px; margin: 0 auto; padding: clamp(48px, 9vw, 76px) clamp(18px, 5vw, 40px) clamp(52px, 8vw, 84px)">
+      <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 28px clamp(32px, 4vw, 56px); margin-bottom: 40px">
+        <div style="flex: 0 1 260px; min-width: 0">
           <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600; margin-bottom: 14px">Updates</div>
           <h2 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 27px; line-height: 1.15; letter-spacing: -0.02em; margin: 0">Notes from the sprints</h2>
         </div>
-        <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #4A4E54; max-width: 66ch; align-self: end">Short posts at the end of each sprint: what shipped in the runtime, what was proved, what the Red Team found. The first entry lands with sprint&nbsp;1.</p>
+        <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #4A4E54; max-width: 66ch; flex: 1 1 430px; align-self: end">Short posts at the end of each sprint: what shipped in the runtime, what was proved, what the Red Team found. The first entry lands with sprint&nbsp;1.</p>
       </div>
       <div style="display: grid; gap: 1px; background: #E5E4DE; border-top: 1px solid #E5E4DE; border-bottom: 1px solid #E5E4DE">
         <sc-for list="{{ updateSlots }}" as="u" hint-placeholder-count="3">
-          <div style="background: #FBFBF9; display: grid; grid-template-columns: 160px minmax(0, 1fr) 140px; gap: 32px; padding: 26px 4px; align-items: center">
+          <div style="background: #FBFBF9; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr)); gap: 12px 32px; padding: 24px 4px; align-items: center">
             <div style="font-family: ui-monospace, Menlo, monospace; font-size: 12.5px; color: #8A8880; letter-spacing: 0.04em">{{ u.when }}</div>
             <div style="display: grid; gap: 8px">
               <div style="height: 11px; width: 44%; background: #E9E8E2"></div>
@@ -374,12 +374,12 @@
   </section>
 
   <section id="contact" style="border-top: 1px solid #E5E4DE">
-    <div style="max-width: 1160px; margin: 0 auto; padding: 76px 40px 80px; display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 56px">
-      <div>
+    <div style="max-width: 1160px; margin: 0 auto; padding: clamp(48px, 9vw, 76px) clamp(18px, 5vw, 40px) clamp(52px, 8vw, 80px); display: flex; flex-wrap: wrap; align-items: flex-start; gap: 28px clamp(32px, 4vw, 56px)">
+      <div style="flex: 0 1 260px; min-width: 0">
         <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #1F4E79; font-weight: 600; margin-bottom: 14px">Contact</div>
         <h2 style="font-family: Archivo, Helvetica, sans-serif; font-weight: 600; font-size: 27px; line-height: 1.15; letter-spacing: -0.02em; margin: 0">Get in touch</h2>
       </div>
-      <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: #E5E4DE; border: 1px solid #E5E4DE; align-content: start">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 215px), 1fr)); gap: 1px; background: #E5E4DE; border: 1px solid #E5E4DE; align-content: start; flex: 1 1 430px; min-width: 0">
         <div style="background: #FBFBF9; padding: 26px 24px; display: grid; gap: 8px; align-content: start">
           <div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: #7C7A73">Project lead</div>
           <div style="font-size: 16px; font-weight: 600">Prof Brijesh Dongol</div>
@@ -403,7 +403,7 @@
   </section>
 
   <footer style="border-top: 1px solid #E5E4DE; background: #F4F3EF">
-    <div style="max-width: 1160px; margin: 0 auto; padding: 34px 40px; display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between; align-items: center; font-size: 13px; color: #7C7A73">
+    <div style="max-width: 1160px; margin: 0 auto; padding: 30px clamp(18px, 5vw, 40px); display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between; align-items: center; font-size: 13px; color: #7C7A73">
       <div>Agentic-seL4 &mdash; Provably Secure Capability-Based Sandboxing of AI Agents</div>
       <div>Universities of Surrey, Sheffield and Melbourne &middot; with Proofcraft</div>
     </div>
